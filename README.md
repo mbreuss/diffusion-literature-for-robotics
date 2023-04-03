@@ -25,37 +25,38 @@ A general list with all published diffusion papers can be found here: [Whats the
 
 
 ## Diffusion in robotics
-Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small. Below you can find all robotics diffusion papers, which have been published or uploaded to arxiv so far:
+Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small. Below you can find most robotics diffusion papers, which have been published or uploaded to arxiv so far:
 
 ---
 
 ### Imitation Learning and Policy Learning
 
-- [paper link](https://arxiv.org/pdf/2303.04137), Chi, Cheng, et al. "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion." arXiv preprint arXiv:2303.04137 (2023).
+- Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) arXiv preprint arXiv:2303.04137 (2023).
 
-- [paper link](https://openreview.net/pdf?id=Pv1GPQzRrC8), Pearce, Tim, et al. "Imitating human behaviour with diffusion models." 
+- Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
 " _International Conference on Learning Representations_. 2023.
 
-- [paper link](https://openreview.net/forum?id=HzOy6lUzPj1), Kapelyukh, Ivan, Vitalis Vosylius, and Edward Johns. "DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics." CoRL 2022 Workshop on Pre-training Robot Learning.
+- Kapelyukh, Ivan, Vitalis Vosylius, and Edward Johns. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) CoRL 2022 Workshop on Pre-training Robot Learning.
 
-- [paper link](https://arxiv.org/pdf/2302.11550.pdf), Yu, Tianhe, et al. "Scaling robot learning with semantically imagined experience." arXiv preprint arXiv:2302.11550 (2023).
+- Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
 
 --- 
 
 ### Offline RL
 
-- [paper link](https://arxiv.org/pdf/2205.09991.pdf), Janner, Michael, et al. "Planning with Diffusion for Flexible Behavior Synthesis." _International Conference on Learning Representations_. 2022.
-- [paper link](https://arxiv.org/pdf/2208.06193.pdf),Wang, Zhendong, Jonathan J. Hunt, and Mingyuan Zhou. "Diffusion policies as an expressive policy class for offline reinforcement learning."  under review at ICML 2023
+- Ajay, Anurag, et al. ["Is Conditional Generative Modeling all you need for Decision-Making?."](https://arxiv.org/pdf/2211.15657) _International Conference on Learning Representations_. 2023.
 
-- [paper link](https://arxiv.org/pdf/2208.15001), Tevet, Guy, et al. "Human Motion Diffusion Model."  under review at ICML 2023 (technically not robotics, but motion generation is still related. The paper is also really cool)
+- Janner, Michael, et al. ["Planning with Diffusion for Flexible Behavior Synthesis."](https://arxiv.org/pdf/2205.09991.pdf) _International Conference on Learning Representations_. 2022.
+- Wang, Zhendong, Jonathan J. Hunt, and Mingyuan Zhou. ["Diffusion policies as an expressive policy class for offline reinforcement learning."](https://arxiv.org/pdf/2208.06193.pdf)  _International Conference on Learning Representations_. 2023.
 
-- [paper link](https://openreview.net/pdf?id=42zs3qa2kpy), Chen, Huayu, et al. "Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling." " _International Conference on Learning Representations_. 2023.
+
+- Chen, Huayu, et al. ["Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling."](https://openreview.net/pdf?id=42zs3qa2kpy)" _International Conference on Learning Representations_. 2023.
 
 --- 
 
 ### Grasping
 
-- [paper link](https://arxiv.org/pdf/2209.03855), Urain, Julen, et al. "SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion." _arXiv preprint arXiv:2209.03855_ (2022).
+- Urain, Julen, et al. ["SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion."](https://arxiv.org/pdf/2209.03855) ICRA 2023
 
 --- 
 
