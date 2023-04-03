@@ -36,6 +36,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 - Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
 " _International Conference on Learning Representations_. 2023.
 
+- Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
+
 - Kapelyukh, Ivan, Vitalis Vosylius, and Edward Johns. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) CoRL 2022 Workshop on Pre-training Robot Learning.
 
 - Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
@@ -49,14 +51,21 @@ Since the modern diffusion models have been around for only 2 years, the literat
 - Janner, Michael, et al. ["Planning with Diffusion for Flexible Behavior Synthesis."](https://arxiv.org/pdf/2205.09991.pdf) _International Conference on Learning Representations_. 2022.
 - Wang, Zhendong, Jonathan J. Hunt, and Mingyuan Zhou. ["Diffusion policies as an expressive policy class for offline reinforcement learning."](https://arxiv.org/pdf/2208.06193.pdf)  _International Conference on Learning Representations_. 2023.
 
+- Brehmer, Johann, et al. ["EDGI: Equivariant Diffusion for Planning with Embodied Agents."](https://arxiv.org/pdf/2303.12410) arXiv preprint arXiv:2303.12410 (2023).
 
 - Chen, Huayu, et al. ["Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling."](https://openreview.net/pdf?id=42zs3qa2kpy)" _International Conference on Learning Representations_. 2023.
+
+- Liang, Zhixuan, et al. ["AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners."](https://arxiv.org/pdf/2302.01877) arXiv preprint arXiv:2302.01877 (2023).
 
 --- 
 
 ### Grasping
 
 - Urain, Julen, et al. ["SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion."](https://arxiv.org/pdf/2209.03855) ICRA 2023
+
+- Liu, Weiyu, et al. ["StructDiffusion: Object-centric diffusion for semantic rearrangement of novel objects."](https://arxiv.org/pdf/2211.04604) arXiv preprint arXiv:2211.04604 (2022).
+
+- Mishra, Utkarsh A., and Yongxin Chen. ["ReorientDiff: Diffusion Model based Reorientation for Object Manipulation."](https://arxiv.org/pdf/2303.12700) arXiv preprint arXiv:2303.12700 (2023).
 
 --- 
 
