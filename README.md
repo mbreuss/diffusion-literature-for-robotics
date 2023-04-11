@@ -12,14 +12,12 @@ While there exist many tutorials for Diffusion models, below you can find an ove
 
 If you don't like reading blog posts and prefer the original papers, below you can find a list with the most important diffusion theory papers:
 
-- [paper link](http://proceedings.mlr.press/v37/sohl-dickstein15.pdf), Sohl-Dickstein, Jascha, et al. "Deep unsupervised learning using nonequilibrium thermodynamics." _International Conference on Machine Learning_. PMLR, 2015.
-- [paper link](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf), Ho, Jonathan, Ajay Jain, and Pieter Abbeel. "Denoising diffusion probabilistic models." _Advances in Neural Information Processing Systems_ 33 (2020): 6840-6851.
-- [paper link](https://arxiv.org/pdf/2011.13456),Song, Yang, et al. "Score-Based Generative Modeling through Stochastic Differential Equations." _International Conference on Learning Representations_. 2020.
-- [paper link](https://arxiv.org/pdf/2207.12598), Ho, Jonathan, and Tim Salimans. "Classifier-Free Diffusion Guidance." _NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications_. 2021.
+- Sohl-Dickstein, Jascha, et al. ["Deep unsupervised learning using nonequilibrium thermodynamics."](http://proceedings.mlr.press/v37/sohl-dickstein15.pdf) _International Conference on Machine Learning_. PMLR, 2015.
+- Ho, Jonathan, Ajay Jain, and Pieter Abbeel. ["Denoising diffusion probabilistic models."](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) _Advances in Neural Information Processing Systems_ 33 (2020): 6840-6851.
+- Song, Yang, et al. ["Score-Based Generative Modeling through Stochastic Differential Equations."](https://arxiv.org/pdf/2011.13456) _International Conference on Learning Representations_. 2020.
+- Ho, Jonathan, and Tim Salimans. ["Classifier-Free Diffusion Guidance."](https://arxiv.org/pdf/2207.12598) _NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications_. 2021.
 
-Our current model implementation is based on this paper:
-
-- [paper link](https://arxiv.org/pdf/2206.00364), Karras, Tero, et al. "Elucidating the Design Space of Diffusion-Based Generative Models." _Advances in Neural Information Processing Systems_ 35 (2022)
+- Karras, Tero, et al. ["Elucidating the Design Space of Diffusion-Based Generative Models."](https://arxiv.org/pdf/2206.00364) _Advances in Neural Information Processing Systems_ 35 (2022)
 
 A general list with all published diffusion papers can be found here: [Whats the score?](https://scorebasedgenerativemodeling.github.io/)
 
@@ -35,6 +33,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
 " _International Conference on Learning Representations_. 2023.
+
+- Reuss, Moritz, et al. ["Goal-Conditioned Imitation Learning using Score-based Diffusion Policies."](https://arxiv.org/pdf/2304.02532) arXiv preprint arXiv:2304.02532 (2023).
 
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
