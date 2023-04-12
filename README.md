@@ -59,7 +59,9 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 --- 
 
-### Grasping
+### Grasping & Tactile Sensing & Pose Estimation
+
+- Higuera, Carolina, Byron Boots, and Mustafa Mukadam. ["Learning to Read Braille: Bridging the Tactile Reality Gap with Diffusion Models."](https://arxiv.org/pdf/2304.01182) arXiv preprint arXiv:2304.01182 (2023).
 
 - Urain, Julen, et al. ["SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion."](https://arxiv.org/pdf/2209.03855) ICRA 2023
 
