@@ -29,12 +29,12 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 ### Imitation Learning and Policy Learning
 
-- Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) arXiv preprint arXiv:2303.04137 (2023).
+- Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
 " _International Conference on Learning Representations_. 2023.
 
-- Reuss, Moritz, et al. ["Goal-Conditioned Imitation Learning using Score-based Diffusion Policies."](https://arxiv.org/pdf/2304.02532) arXiv preprint arXiv:2304.02532 (2023).
+- Reuss, Moritz, et al. ["Goal-Conditioned Imitation Learning using Score-based Diffusion Policies."](https://arxiv.org/pdf/2304.02532) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
@@ -87,7 +87,7 @@ The initial diffusion models are usually trained on marginal distributions $p(x)
 
 - Classifier Guided Diffusion by [Dhariwal & Nichol (2021)](https://arxiv.org/abs/2105.05233)
 - Classifier-Free Guidance (CFG) by [Ho & Salimans, (2021)](https://openreview.net/forum?id=qw8AKxfYbI)
-- direclty training a conditional diffusion model $p(x|z)$ 
+- directly training a conditional diffusion model $p(x|z)$ 
 
 CFG is used in many applications, since it allows to train a conditional diffusion model  and unconditional diffusion model at the same time. During inference, we can combine both models and control the generation process using a guidance weight. 
 
