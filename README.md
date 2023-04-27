@@ -48,6 +48,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Ajay, Anurag, et al. ["Is Conditional Generative Modeling all you need for Decision-Making?."](https://arxiv.org/pdf/2211.15657) _International Conference on Learning Representations_. 2023.
 
+- Hansen-Estruch, Philippe, et al. ["IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies."](https://arxiv.org/pdf/2304.10573) arXiv preprint arXiv:2304.10573 (2023).
+
 - Janner, Michael, et al. ["Planning with Diffusion for Flexible Behavior Synthesis."](https://arxiv.org/pdf/2205.09991.pdf) _International Conference on Learning Representations_. 2022.
 - Wang, Zhendong, Jonathan J. Hunt, and Mingyuan Zhou. ["Diffusion policies as an expressive policy class for offline reinforcement learning."](https://arxiv.org/pdf/2208.06193.pdf)  _International Conference on Learning Representations_. 2023.
 
