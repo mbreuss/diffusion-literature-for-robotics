@@ -1,9 +1,25 @@
-# Getting-started-with-Diffusion-Literature
-Summary of the most important papers and blogs about diffusion models for students to learn about diffusion models. Also contains an overview of all published robotics diffusion papers
+# Getting-started-with-Diffusion-Literature-for-Robotics
+Summary of the most important papers and blogs about diffusion models for students to learn about diffusion models. It also contains an overview of all published robotics diffusion papers.
+
+# Table of Contents
+1. [Learning about Diffusion models](#Learning-about-Diffusion-models)
+2. [Diffusion in Robotics](#Diffusion-in-Robotics)
+
+    2.1 [Imitation Learning and Policy Learning](#Imitation-Learning-and-Policy-Learning)
+
+    2.2 [Offline RL](#Offline-RL)
+
+    2.3 [Grasping & Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
+
+3. [Diffusion History](#Diffusion-History)
+4. [Contributing](#contributing)
+5. [License](#license)
+
+---
 
 ## Learning about Diffusion models 
-
-While there exist many tutorials for Diffusion models, below you can find an overview of some introduction blog posts and video, which I found the most intuitive and useful:
+<a name="Learning-about-Diffusion-models"></a>
+While there exist many tutorials for Diffusion models, below you can find an overview of some of the best introduction blog posts and video:
 
 - [What are Diffusion Models?](https://www.youtube.com/watch?v=fbLgFrlTnGU&t=1s): an introduction video, which introduces the general idea of diffusion models and some high-level math about how the model works
 - [Generative Modeling by Estimating Gradients of the Data Distribution](https://yang-song.net/blog/2021/score/): blog post from the one of the most influential authors in this area, which introduces diffusion models from the score-based perspective 
@@ -21,14 +37,16 @@ If you don't like reading blog posts and prefer the original papers, below you c
 
 A general list with all published diffusion papers can be found here: [Whats the score?](https://scorebasedgenerativemodeling.github.io/)
 
+---
 
-## Diffusion in robotics
-Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small. Below you can find most robotics diffusion papers, which have been published or uploaded to arxiv so far:
+## Diffusion in Robotics
+<a name="Diffusion-in-Robotics"></a>
+Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small. Below you can find most robotics diffusion papers, which have been published at conferences or uploaded to arxiv so far:
 
 ---
 
 ### Imitation Learning and Policy Learning
-
+<a name="Imitation-Learning-and-Policy-Learning"></a>
 - Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
@@ -45,7 +63,7 @@ Since the modern diffusion models have been around for only 2 years, the literat
 --- 
 
 ### Offline RL
-
+<a name="Offline-RL"></a>
 - Ajay, Anurag, et al. ["Is Conditional Generative Modeling all you need for Decision-Making?."](https://arxiv.org/pdf/2211.15657) _International Conference on Learning Representations_. 2023.
 
 - Hansen-Estruch, Philippe, et al. ["IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies."](https://arxiv.org/pdf/2304.10573) arXiv preprint arXiv:2304.10573 (2023).
@@ -63,6 +81,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 ### Grasping & Tactile Sensing & Pose Estimation
 
+<a name="Grasping-&-Tactile-Sensing-&-Pose-Estimation"></a>
+
 - Higuera, Carolina, Byron Boots, and Mustafa Mukadam. ["Learning to Read Braille: Bridging the Tactile Reality Gap with Diffusion Models."](https://arxiv.org/pdf/2304.01182) arXiv preprint arXiv:2304.01182 (2023).
 
 - Urain, Julen, et al. ["SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion."](https://arxiv.org/pdf/2209.03855) ICRA 2023
@@ -73,8 +93,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 --- 
 
-## Diffusion history
-
+## Diffusion History
+<a name="Diffusion-History"></a>
 Diffusion models are a type of generative model inspired by non-equilibrium thermodynamics, introduced by [Sohl-Dickstein et al., (2015)](https://arxiv.org/abs/1503.03585). The model learns to invert a diffusion process, that gradually adds noise to a data sample. This process is a Markov chain consisting of diffusion steps, which add random Gaussian noise to a data sample. The diffusion model is used to learn to invert this process. While the paper was presented  in 2015, it took several years for the diffusion models to get widespread attention in the research community. Diffusion models are a type of generative model and in this field, the main focus are vision based applications, thus all theory papers mentioned in the text below are mostly focused on image synthesis or similar tasks related to it. 
 
 There are two perspectives to view diffusion models. The first one is based on the initial idea of  [Sohl-Dickstein et al., (2015)](https://arxiv.org/abs/1503.03585), while the other is based on a different direction of research known as score-based generative models. In 2019 [Song & Ermon, (2019)](https://proceedings.neurips.cc/paper/2019/file/3001ef257407d5a371a96dcd947c7d93-Paper.pdf) proposed the _noise-conditioned score network (NCSN)_, which is a predecessor to the score-based diffusion model. The main idea was to learn the score function of the unknown data distribution using a neural network. This approach had been around before, however their paper and the subsequent work [Song & Ermon (2020)](https://arxiv.org/abs/2006.09011) enabled scaling score-based models to high-dimension data distributions and made them competitive on image-generation tasks. The key idea in their work was to perturb the data distribution with various levels of Gaussian noise and learn a noise-conditional score model to predict the score of the perturbed data distributions. 
@@ -112,3 +132,5 @@ Diffusion models offer several useful properties in the context of robotics, inc
 - Compositionality : Diffusion models can combined in a flexible way to jointly generate new samples
 
 Overall, diffusion models have the potential to be a valuable tool for robotics.
+
+---
