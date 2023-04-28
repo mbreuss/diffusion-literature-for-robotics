@@ -22,6 +22,9 @@ Summary of the most important papers and blogs about diffusion models for studen
 While there exist many tutorials for Diffusion models, below you can find an overview of some of the best introduction blog posts and video:
 
 - [What are Diffusion Models?](https://www.youtube.com/watch?v=fbLgFrlTnGU&t=1s): an introduction video, which introduces the general idea of diffusion models and some high-level math about how the model works
+
+- [Diffusion Models | Paper Explanation | Math Explained](https://www.youtube.com/watch?v=HoKDTa5jHvg) another great video tutorial explaining the math and notation of diffusion models in detail with visual aid
+
 - [Generative Modeling by Estimating Gradients of the Data Distribution](https://yang-song.net/blog/2021/score/): blog post from the one of the most influential authors in this area, which introduces diffusion models from the score-based perspective 
 - [What are Diffusion Models](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/): a in-depth blog post about the theory of diffusion models with a general  summary on how diffusion model improved over time 
 - [Understanding Diffusion Models](https://arxiv.org/pdf/2208.11970.pdf): an in-depth explanation paper, which explains the diffusion models from both perspectives with detailed derivations
@@ -29,8 +32,9 @@ While there exist many tutorials for Diffusion models, below you can find an ove
 If you don't like reading blog posts and prefer the original papers, below you can find a list with the most important diffusion theory papers:
 
 - Sohl-Dickstein, Jascha, et al. ["Deep unsupervised learning using nonequilibrium thermodynamics."](http://proceedings.mlr.press/v37/sohl-dickstein15.pdf) _International Conference on Machine Learning_. PMLR, 2015.
-- Ho, Jonathan, Ajay Jain, and Pieter Abbeel. ["Denoising diffusion probabilistic models."](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) _Advances in Neural Information Processing Systems_ 33 (2020): 6840-6851.
+- Ho, Jonathan, et al. ["Denoising diffusion probabilistic models."](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) _Advances in Neural Information Processing Systems_ 33 (2020): 6840-6851.
 - Song, Yang, et al. ["Score-Based Generative Modeling through Stochastic Differential Equations."](https://arxiv.org/pdf/2011.13456) _International Conference on Learning Representations_. 2020.
+
 - Ho, Jonathan, and Tim Salimans. ["Classifier-Free Diffusion Guidance."](https://arxiv.org/pdf/2207.12598) _NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications_. 2021.
 
 - Karras, Tero, et al. ["Elucidating the Design Space of Diffusion-Based Generative Models."](https://arxiv.org/pdf/2206.00364) _Advances in Neural Information Processing Systems_ 35 (2022)
@@ -47,6 +51,7 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
+
 - Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
@@ -56,7 +61,7 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
-- Kapelyukh, Ivan, Vitalis Vosylius, and Edward Johns. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) CoRL 2022 Workshop on Pre-training Robot Learning.
+- Kapelyukh, Ivan, et al. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) _CoRL 2022 Workshop on Pre-training Robot Learning._
 
 - Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
 
@@ -64,12 +69,14 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
 - Ajay, Anurag, et al. ["Is Conditional Generative Modeling all you need for Decision-Making?."](https://arxiv.org/pdf/2211.15657) _International Conference on Learning Representations_. 2023.
 
 - Hansen-Estruch, Philippe, et al. ["IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies."](https://arxiv.org/pdf/2304.10573) arXiv preprint arXiv:2304.10573 (2023).
 
 - Janner, Michael, et al. ["Planning with Diffusion for Flexible Behavior Synthesis."](https://arxiv.org/pdf/2205.09991.pdf) _International Conference on Learning Representations_. 2022.
-- Wang, Zhendong, Jonathan J. Hunt, and Mingyuan Zhou. ["Diffusion policies as an expressive policy class for offline reinforcement learning."](https://arxiv.org/pdf/2208.06193.pdf)  _International Conference on Learning Representations_. 2023.
+
+- Wang, Zhendong, et al. ["Diffusion policies as an expressive policy class for offline reinforcement learning."](https://arxiv.org/pdf/2208.06193.pdf)  _International Conference on Learning Representations_. 2023.
 
 - Brehmer, Johann, et al. ["EDGI: Equivariant Diffusion for Planning with Embodied Agents."](https://arxiv.org/pdf/2303.12410) arXiv preprint arXiv:2303.12410 (2023).
 
@@ -85,7 +92,9 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Higuera, Carolina, Byron Boots, and Mustafa Mukadam. ["Learning to Read Braille: Bridging the Tactile Reality Gap with Diffusion Models."](https://arxiv.org/pdf/2304.01182) arXiv preprint arXiv:2304.01182 (2023).
 
-- Urain, Julen, et al. ["SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion."](https://arxiv.org/pdf/2209.03855) ICRA 2023
+- Urain, Julen, et al. ["SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion."](https://arxiv.org/pdf/2209.03855) _IEEE International Conference on Robotics and Automation (ICRA)_ 2023
+
+- Carvalho, J. et al. [Conditioned Score-Based Models for Learning Collision-Free Trajectory Generation](https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoaoCarvalho/Conditioned_Score_Based_Models_for_Learning_Collision_Free_Trajectory_Generation.pdf), _NeurIPS 2022 Workshop on Score-Based Methods_ 
 
 - Liu, Weiyu, et al. ["StructDiffusion: Object-centric diffusion for semantic rearrangement of novel objects."](https://arxiv.org/pdf/2211.04604) arXiv preprint arXiv:2211.04604 (2022).
 
@@ -119,7 +128,7 @@ As previously mentioned, diffusion models can be viewed from two different persp
 - the denoising diffusion probabilistic perspective based on [Ho et al., (2020)](https://arxiv.org/abs/2006.11239) 
 - the score-based model perspective based on  [Song & Ermon, (2019)](https://proceedings.neurips.cc/paper/2019/file/3001ef257407d5a371a96dcd947c7d93-Paper.pdf)
 
-There has been a lot of effort to combine these two views into one general framework. The best generalization has been the idea of stochastic differential equations (SDEs) first presented in [Song et al. (2021)](https://arxiv.org/pdf/2011.13456).
+There has been a lot of effort to combine these two views into one general framework. The best generalization has been the idea of stochastic differential equations (SDEs) first presented in [Song et al. (2021)](https://arxiv.org/pdf/2011.13456) and further developed to unified framework in [Karras et al. (2022)](https://arxiv.org/pdf/2206.00364).
 
 While diffusion models have mainly been applied in the area of generative modeling, recent work has shown promising applications of diffusion models in robotics. For instance, diffusion models have been used for behavior cloning and offline reinforcement learning, and have also been used to generate more diverse training data for robotics tasks.
 
