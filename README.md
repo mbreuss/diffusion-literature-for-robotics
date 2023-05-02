@@ -12,8 +12,6 @@ Summary of the most important papers and blogs about diffusion models for studen
     2.3 [Grasping & Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
 
 3. [Diffusion History](#Diffusion-History)
-4. [Contributing](#contributing)
-5. [License](#license)
 
 ---
 
@@ -32,6 +30,7 @@ While there exist many tutorials for Diffusion models, below you can find an ove
 If you don't like reading blog posts and prefer the original papers, below you can find a list with the most important diffusion theory papers:
 
 - Sohl-Dickstein, Jascha, et al. ["Deep unsupervised learning using nonequilibrium thermodynamics."](http://proceedings.mlr.press/v37/sohl-dickstein15.pdf) _International Conference on Machine Learning_. PMLR, 2015.
+
 - Ho, Jonathan, et al. ["Denoising diffusion probabilistic models."](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) _Advances in Neural Information Processing Systems_ 33 (2020): 6840-6851.
 - Song, Yang, et al. ["Score-Based Generative Modeling through Stochastic Differential Equations."](https://arxiv.org/pdf/2011.13456) _International Conference on Learning Representations_. 2020.
 
@@ -69,6 +68,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
+- Lu, Cheng, et al. ["Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning."](https://arxiv.org/pdf/2304.12824.pdf)  _International Conference on Machine Learning_. PMLR, 2023.
 
 - Ajay, Anurag, et al. ["Is Conditional Generative Modeling all you need for Decision-Making?."](https://arxiv.org/pdf/2211.15657) _International Conference on Learning Representations_. 2023.
 
