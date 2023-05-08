@@ -75,6 +75,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Hansen-Estruch, Philippe, et al. ["IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies."](https://arxiv.org/pdf/2304.10573) arXiv preprint arXiv:2304.10573 (2023).
 
+- Brehmer, Johann, et al. [EDGI: Equivariant Diffusion for Planning with Embodied Agents](https://openreview.net/forum?id=OrbWCpidbt) _Workshop on Reincarnating Reinforcement Learning at ICLR_ 2023. 
+
 - Janner, Michael, et al. ["Planning with Diffusion for Flexible Behavior Synthesis."](https://arxiv.org/pdf/2205.09991.pdf) _International Conference on Learning Representations_. 2022.
 
 - Wang, Zhendong, et al. ["Diffusion policies as an expressive policy class for offline reinforcement learning."](https://arxiv.org/pdf/2208.06193.pdf)  _International Conference on Learning Representations_. 2023.
