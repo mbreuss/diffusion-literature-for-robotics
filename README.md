@@ -60,7 +60,9 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
-- Kapelyukh, Ivan, et al. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) _CoRL 2022 Workshop on Pre-training Robot Learning._
+- Zhang, Edwin, et al. ["LAD: Language Augmented Diffusion for Reinforcement Learning."](https://arxiv.org/pdf/2210.15629.pdf) arXiv preprint arXiv:2210.15629 (2022).
+
+- Kapelyukh, Ivan, et al. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) _IEEE Robotics and Automation Letters (RA-L)_ 2023.
 
 - Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
 
