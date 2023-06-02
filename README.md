@@ -66,6 +66,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
 
+- Ng, Eley, Ziang Liu, and Monroe Kennedy III. ["Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks."](https://arxiv.org/pdf/2305.12171) arXiv preprint arXiv:2305.12171 (2023).
+
 --- 
 
 ### Offline RL
@@ -76,6 +78,10 @@ Since the modern diffusion models have been around for only 2 years, the literat
 - Ajay, Anurag, et al. ["Is Conditional Generative Modeling all you need for Decision-Making?."](https://arxiv.org/pdf/2211.15657) _International Conference on Learning Representations_. 2023.
 
 - Hansen-Estruch, Philippe, et al. ["IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies."](https://arxiv.org/pdf/2304.10573) arXiv preprint arXiv:2304.10573 (2023).
+
+- Zhu, Zhengbang, et al. ["MADiff: Offline Multi-agent Learning with Diffusion Models."](https://arxiv.org/pdf/2305.17330) arXiv preprint arXiv:2305.17330 (2023).
+
+- Zhang, Edwin, et al. ["LAD: Language Augmented Diffusion for Reinforcement Learning."](https://arxiv.org/pdf/2210.15629) arXiv preprint arXiv:2210.15629 (2022).
 
 - Brehmer, Johann, et al. [EDGI: Equivariant Diffusion for Planning with Embodied Agents](https://openreview.net/forum?id=OrbWCpidbt) _Workshop on Reincarnating Reinforcement Learning at ICLR_ 2023. 
 
