@@ -1,5 +1,5 @@
 # Getting-started-with-Diffusion-Literature-for-Robotics
-Summary of the most important papers and blogs about diffusion models for students to learn about diffusion models. It also contains an overview of all published robotics diffusion papers.
+Summary of the most important papers and blogs about diffusion models for people to learn about diffusion models. Further, it contains an overview of published robotics diffusion papers.
 
 # Table of Contents
 1. [Learning about Diffusion models](#Learning-about-Diffusion-models)
@@ -44,7 +44,7 @@ A general list with all published diffusion papers can be found here: [Whats the
 
 ## Diffusion in Robotics
 <a name="Diffusion-in-Robotics"></a>
-Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small. Below you can find most robotics diffusion papers, which have been published at conferences or uploaded to arxiv so far:
+Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small, but growing rapidly. Below you can find most robotics diffusion papers, which have been published at conferences or uploaded to arxiv so far:
 
 ---
 
@@ -60,6 +60,8 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
+- Jiang, Chiyu, et al. ["MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion."](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_MotionDiffuser_Controllable_Multi-Agent_Motion_Prediction_Using_Diffusion_CVPR_2023_paper.pdf) Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
+
 - Zhang, Edwin, et al. ["LAD: Language Augmented Diffusion for Reinforcement Learning."](https://arxiv.org/pdf/2210.15629.pdf) arXiv preprint arXiv:2210.15629 (2022).
 
 - Kapelyukh, Ivan, et al. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) _IEEE Robotics and Automation Letters (RA-L)_ 2023.
@@ -73,7 +75,20 @@ Since the modern diffusion models have been around for only 2 years, the literat
 ### Offline RL
 <a name="Offline-RL"></a>
 
+- Liang, Zhixuan, et al. ["AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners."](https://arxiv.org/pdf/2302.01877) _International Conference on Machine Learning_. PMLR, 2023.
+
 - Lu, Cheng, et al. ["Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning."](https://arxiv.org/pdf/2304.12824.pdf)  _International Conference on Machine Learning_. PMLR, 2023.
+
+- Zhu, Zhengbang, et al. ["MADiff: Offline Multi-agent Learning with Diffusion Models."](https://arxiv.org/pdf/2305.17330) arXiv preprint arXiv:2305.17330 (2023).
+
+- Kang, Bingyi, et al. ["Efficient Diffusion Policies for Offline Reinforcement Learning."](https://arxiv.org/pdf/2305.20081) arXiv preprint arXiv:2305.20081 (2023).
+
+- Ni, Fei, et al. ["MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL."](https://arxiv.org/pdf/2305.19923) _International Conference on Machine Learning_. PMLR, 2023.
+
+
+- 
+
+- He, Haoran, et al. ["Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning."](https://arxiv.org/pdf/2305.18459) arXiv preprint arXiv:2305.18459 (2023).
 
 - Ajay, Anurag, et al. ["Is Conditional Generative Modeling all you need for Decision-Making?."](https://arxiv.org/pdf/2211.15657) _International Conference on Learning Representations_. 2023.
 
@@ -93,7 +108,6 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Chen, Huayu, et al. ["Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling."](https://openreview.net/pdf?id=42zs3qa2kpy)" _International Conference on Learning Representations_. 2023.
 
-- Liang, Zhixuan, et al. ["AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners."](https://arxiv.org/pdf/2302.01877) arXiv preprint arXiv:2302.01877 (2023).
 
 --- 
 
