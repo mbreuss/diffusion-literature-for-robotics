@@ -1,4 +1,4 @@
-# Getting-started-with-Diffusion-Literature-for-Robotics
+# Diffusion-Literature-for-Robotics
 Summary of the most important papers and blogs about diffusion models for people to learn about diffusion models. Further, it contains an overview of published robotics diffusion papers.
 
 # Table of Contents
@@ -44,7 +44,7 @@ A general list with all published diffusion papers can be found here: [Whats the
 
 ## Diffusion in Robotics
 <a name="Diffusion-in-Robotics"></a>
-Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small, but growing rapidly. Below you can find most robotics diffusion papers, which have been published at conferences or uploaded to arxiv so far:
+Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small, but growing rapidly. Below you can find most robotics diffusion papers, which have been published at conferences or uploaded to Arxiv so far:
 
 ---
 
@@ -53,10 +53,9 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
-- Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
-" _International Conference on Learning Representations_. 2023.
-
 - Reuss, Moritz, et al. ["Goal-Conditioned Imitation Learning using Score-based Diffusion Policies."](https://arxiv.org/pdf/2304.02532) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
+
+- Yoneda, Takuma, et al. ["To the Noise and Back: Diffusion for Shared Autonomy."](https://arxiv.org/pdf/2302.12244) arXiv preprint arXiv:2302.12244 (2023) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
@@ -65,6 +64,9 @@ Since the modern diffusion models have been around for only 2 years, the literat
 - Zhang, Edwin, et al. ["LAD: Language Augmented Diffusion for Reinforcement Learning."](https://arxiv.org/pdf/2210.15629.pdf) arXiv preprint arXiv:2210.15629 (2022).
 
 - Kapelyukh, Ivan, et al. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) _IEEE Robotics and Automation Letters (RA-L)_ 2023.
+
+- - Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
+" _International Conference on Learning Representations_. 2023.
 
 - Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
 
@@ -121,7 +123,7 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Carvalho, J. et al. [Conditioned Score-Based Models for Learning Collision-Free Trajectory Generation](https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoaoCarvalho/Conditioned_Score_Based_Models_for_Learning_Collision_Free_Trajectory_Generation.pdf), _NeurIPS 2022 Workshop on Score-Based Methods_ 
 
-- Liu, Weiyu, et al. ["StructDiffusion: Object-centric diffusion for semantic rearrangement of novel objects."](https://arxiv.org/pdf/2211.04604) arXiv preprint arXiv:2211.04604 (2022).
+- Liu, Weiyu, et al. ["StructDiffusion: Object-centric diffusion for semantic rearrangement of novel objects."](https://arxiv.org/pdf/2211.04604) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Mishra, Utkarsh A., and Yongxin Chen. ["ReorientDiff: Diffusion Model based Reorientation for Object Manipulation."](https://arxiv.org/pdf/2303.12700) arXiv preprint arXiv:2303.12700 (2023).
 
@@ -134,7 +136,7 @@ Diffusion models are a type of generative model inspired by non-equilibrium ther
 There are two perspectives to view diffusion models. The first one is based on the initial idea of  [Sohl-Dickstein et al., (2015)](https://arxiv.org/abs/1503.03585), while the other is based on a different direction of research known as score-based generative models. In 2019 [Song & Ermon, (2019)](https://proceedings.neurips.cc/paper/2019/file/3001ef257407d5a371a96dcd947c7d93-Paper.pdf) proposed the _noise-conditioned score network (NCSN)_, which is a predecessor to the score-based diffusion model. The main idea was to learn the score function of the unknown data distribution using a neural network. This approach had been around before, however their paper and the subsequent work [Song & Ermon (2020)](https://arxiv.org/abs/2006.09011) enabled scaling score-based models to high-dimension data distributions and made them competitive on image-generation tasks. The key idea in their work was to perturb the data distribution with various levels of Gaussian noise and learn a noise-conditional score model to predict the score of the perturbed data distributions. 
 
 
-In 2020, [Ho et al., (2020)](https://arxiv.org/abs/2006.11239) introduced  _denoising diffusion probabilistic models (DDPM)_, which served as the foundation for the success of Diffusion models. At that time, Diffusion models still were not  competitive with state-of-the-art generate models such as GANs. However, this changed rapidly the following year when [Nichol & Dhariwal (2021)](https://arxiv.org/abs/2105.05233) improved upon the previous paper and demonstrated, that Diffusion models are competitive with GANs on image synthesis tasks. Nevertheless, it is important to note, that Diffusion models are not the jack of all trades. GANs and other generative models are still relevant. Additionally, Diffusion models still struggle with certain image traits such as generating realistic faces or generating the right amount of fingers. 
+In 2020, [Ho et al., (2020)](https://arxiv.org/abs/2006.11239) introduced  _denoising diffusion probabilistic models (DDPM)_, which served as the foundation for the success of Diffusion models. At that time, Diffusion models still were not  competitive with state-of-the-art generate models such as GANs. However, this changed rapidly the following year when [Nichol & Dhariwal (2021)](https://arxiv.org/abs/2105.05233) improved upon the previous paper and demonstrated, that Diffusion models are competitive with GANs on image synthesis tasks. Nevertheless, it is important to note, that Diffusion models are not the jack of all trades. Diffusion models still struggle with certain image traits such as generating realistic faces or generating the right amount of fingers. 
 
 Another important idea for diffusion models in the context of image generation has been the introduction of _latent diffusion models_ by [Rombach & Blattman et al., (2022)](https://arxiv.org/abs/2112.1075). By training the diffusion model in the latent space rather than the image space directly, they were able to improve the sampling and training speed and made it possible for everyone to run their own diffusion model on local PCs with a single GPU. Recent AI generated art is mostly based on the stable AI implementation of latent diffusion models and is open source: [Github repo](https://github.com/CompVis/stable-diffusion). Check out some cool Diffusion art on the [stable-diffusion-reddit](https://www.reddit.com/r/StableDiffusion/).
 
