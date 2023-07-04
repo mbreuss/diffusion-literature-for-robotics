@@ -55,7 +55,7 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Reuss, Moritz, et al. ["Goal-Conditioned Imitation Learning using Score-based Diffusion Policies."](https://arxiv.org/pdf/2304.02532) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
-- Yoneda, Takuma, et al. ["To the Noise and Back: Diffusion for Shared Autonomy."](https://arxiv.org/pdf/2302.12244) arXiv preprint arXiv:2302.12244 (2023) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
+- Yoneda, Takuma, et al. ["To the Noise and Back: Diffusion for Shared Autonomy."](https://arxiv.org/pdf/2302.12244) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
@@ -87,8 +87,6 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Ni, Fei, et al. ["MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL."](https://arxiv.org/pdf/2305.19923) _International Conference on Machine Learning_. PMLR, 2023.
 
-
-- 
 
 - He, Haoran, et al. ["Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning."](https://arxiv.org/pdf/2305.18459) arXiv preprint arXiv:2305.18459 (2023).
 
