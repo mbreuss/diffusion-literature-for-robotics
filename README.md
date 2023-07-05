@@ -7,11 +7,17 @@ Summary of the most important papers and blogs about diffusion models for people
 
     2.1 [Imitation Learning and Policy Learning](#Imitation-Learning-and-Policy-Learning)
 
-    2.2 [Offline RL](#Offline-RL)
+    2.2 [Online RL](#Online-RL)
+    
+    2.3 [Offline RL](#Offline-RL)
 
-    2.3 [Grasping & Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
+    2.4 [Inverse RL](#Inverse-RL)
 
-3. [Diffusion History](#Diffusion-History)
+    2.5 [Grasping & Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
+
+3. [Code Implementations](#Code-Bases)
+
+4. [Diffusion History](#Diffusion-History)
 
 ---
 
@@ -51,6 +57,9 @@ Since the modern diffusion models have been around for only 2 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Ng, Eley, Ziang Liu, and Monroe Kennedy III. ["Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks."](https://arxiv.org/pdf/2305.12171) arXiv preprint arXiv:2305.12171 (2023).
+
+
 - Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Reuss, Moritz, et al. ["Goal-Conditioned Imitation Learning using Score-based Diffusion Policies."](https://arxiv.org/pdf/2304.02532) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
@@ -65,17 +74,33 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Kapelyukh, Ivan, et al. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) _IEEE Robotics and Automation Letters (RA-L)_ 2023.
 
-- - Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
+- Pearce, Tim, et al. ["Imitating human behaviour with diffusion models."](https://openreview.net/pdf?id=Pv1GPQzRrC8) 
 " _International Conference on Learning Representations_. 2023.
 
 - Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
 
-- Ng, Eley, Ziang Liu, and Monroe Kennedy III. ["Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks."](https://arxiv.org/pdf/2305.12171) arXiv preprint arXiv:2305.12171 (2023).
+
+---
+
+### Online RL 
+<a name="Online-RL"></a>
+
+The number of papers  The standard policy gradient objective requires the gradient of the log-likelihood, which is only implicitly defined by the underlying Ordinary Differential Equation (ODE) of the diffusion model. 
+
+- Yang, Long, et al. ["Policy Representation via Diffusion Probability Model for Reinforcement Learning."](https://arxiv.org/pdf/2305.13122) arXiv preprint arXiv:2305.13122 (2023).
+
+- Mazoure, Bogdan, et al. ["Value function estimation using conditional diffusion models for control."](https://arxiv.org/pdf/2306.07290) arXiv preprint arXiv:2306.07290 (2023).
 
 --- 
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
+- Hu, Jifeng, et al. ["Instructed Diffuser with Temporal Condition Guidance for Offline Reinforcement Learning."](https://arxiv.org/pdf/2306.04875) arXiv preprint arXiv:2306.04875 (2023).
+
+- Hegde, Shashank, et al. ["Generating Behaviorally Diverse Policies with Latent Diffusion Models."](https://arxiv.org/pdf/2305.18738) arXiv preprint arXiv:2305.18738 (2023).
+
+- Xiao, Wei, et al. ["SafeDiffuser: Safe Planning with Diffusion Probabilistic Models."](https://arxiv.org/pdf/2306.00148) arXiv preprint arXiv:2306.00148 (2023).
 
 - Liang, Zhixuan, et al. ["AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners."](https://arxiv.org/pdf/2302.01877) _International Conference on Machine Learning_. PMLR, 2023.
 
@@ -111,9 +136,23 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 --- 
 
+### Inverse RL
+<a name="Inverse-RL"></a>
+
+- Nuti, Felipe, Tim Franzmeyer, and João F. Henriques. ["Extracting Reward Functions from Diffusion Models."](https://arxiv.org/pdf/2306.01804) arXiv preprint arXiv:2306.01804 (2023).
+
+
+---
+
 ### Grasping & Tactile Sensing & Pose Estimation
 
 <a name="Grasping-&-Tactile-Sensing-&-Pose-Estimation"></a>
+
+- Fang, Xiaolin, et al. ["DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability."](https://arxiv.org/pdf/2306.13196) arXiv preprint arXiv:2306.13196 (2023).
+
+- Liu, Weiyu, et al. ["StructDiffusion: Object-centric diffusion for semantic rearrangement of novel objects."](https://arxiv.org/pdf/2211.04604) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
+
+- Mishra, Utkarsh A., and Yongxin Chen. ["ReorientDiff: Diffusion Model based Reorientation for Object Manipulation."](https://arxiv.org/pdf/2303.12700) _RSS 2023 Workshop on Learning for Task and Motion Planning_
 
 - Higuera, Carolina, Byron Boots, and Mustafa Mukadam. ["Learning to Read Braille: Bridging the Tactile Reality Gap with Diffusion Models."](https://arxiv.org/pdf/2304.01182) arXiv preprint arXiv:2304.01182 (2023).
 
@@ -121,9 +160,25 @@ Since the modern diffusion models have been around for only 2 years, the literat
 
 - Carvalho, J. et al. [Conditioned Score-Based Models for Learning Collision-Free Trajectory Generation](https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoaoCarvalho/Conditioned_Score_Based_Models_for_Learning_Collision_Free_Trajectory_Generation.pdf), _NeurIPS 2022 Workshop on Score-Based Methods_ 
 
-- Liu, Weiyu, et al. ["StructDiffusion: Object-centric diffusion for semantic rearrangement of novel objects."](https://arxiv.org/pdf/2211.04604) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
+---
 
-- Mishra, Utkarsh A., and Yongxin Chen. ["ReorientDiff: Diffusion Model based Reorientation for Object Manipulation."](https://arxiv.org/pdf/2303.12700) arXiv preprint arXiv:2303.12700 (2023).
+## Code Implementations
+<a name="Code-Bases"></a>
+
+There exist numerous implementations of all diffusion models on github. Below you can find a curated list of some clean code variants of the most important diffusion models in general and for robotics:
+
+- [Diffusers](https://github.com/huggingface/diffusers): the main diffusion project from HuggingFaces with numerous pre-trained diffusion models ready to use 
+
+- [k-diffusion](https://github.com/crowsonkb/k-diffusion): while its not the official code-base of the EDM diffusion models from [Karras et al., 2022](https://arxiv.org/pdf/2206.00364), it has very clean code and numerous samplers. Parts of teh code have been used in various other projects such as [Consistency Models](https://github.com/openai/consistency_models) from OpenAI and diffusers from HuggingFaces.
+
+- [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch): a clean DDPM diffusion model implementation in Pytorch to get a good understanding of all the components 
+
+- [Diffuser](https://github.com/jannerm/diffuser): Variants of this code are used in numerous trajectory diffusion OfflineRL papers listed above
+
+- [diffusion_policy](https://github.com/columbia-ai-robotics/diffusion_policy): Beautiful Code implementation of Diffusion policies from [Chi et al., 2023](https://diffusion-policy.cs.columbia.edu/#paper) for Imitation Learning with 9 different simulations to test the models on
+
+- [dpm-solver](https://github.com/LuChengTHU/dpm-solver): One of the most widely used ODE samplers for Diffusion models from [Lu et al. 2022](https://arxiv.org/abs/2206.00927) with implementations for all different diffusion models including wrappers for discrete DDPM variants 
+
 
 --- 
 
@@ -159,11 +214,10 @@ While diffusion models have mainly been applied in the area of generative modeli
 
 Diffusion models offer several useful properties in the context of robotics, including:
 
-- Expressiveness: can learn arbitrarily complicated data-distributions 
-- Training stability: they are easy to train especially in contrast GANs or EBMs
-- Multimodality: they are able to learn complicated multimodal distributions
-
-- Compositionality : Diffusion models can combined in a flexible way to jointly generate new samples
+- *Expressiveness*: can learn arbitrarily complicated data-distributions 
+- *Training stability*: they are easy to train especially in contrast GANs or EBMs
+- *Multimodality*: they are able to learn complicated multimodal distributions
+- *Compositionality*: Diffusion models can combined in a flexible way to jointly generate new samples
 
 Overall, diffusion models have the potential to be a valuable tool for robotics.
 
