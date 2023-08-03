@@ -13,7 +13,9 @@ Summary of the most important papers and blogs about diffusion models for people
 
     2.4 [Inverse RL](#Inverse-RL)
 
-    2.5 [Grasping & Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
+    2.5 [Task and Motion Planning](#tamp)
+
+    2.5 [Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
 
 3. [Code Implementations](#Code-Bases)
 
@@ -50,15 +52,20 @@ A general list with all published diffusion papers can be found here: [Whats the
 
 ## Diffusion in Robotics
 <a name="Diffusion-in-Robotics"></a>
-Since the modern diffusion models have been around for only 2 years, the literature about diffusion models in the context of robotics is still small, but growing rapidly. Below you can find most robotics diffusion papers, which have been published at conferences or uploaded to Arxiv so far:
+Since the modern diffusion models have been around for only 3 years, the literature about diffusion models in the context of robotics is still small, but growing rapidly. Below you can find most robotics diffusion papers, which have been published at conferences or uploaded to Arxiv so far:
 
 ---
 
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
-- Ng, Eley, Ziang Liu, and Monroe Kennedy III. ["Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks."](https://arxiv.org/pdf/2305.12171) arXiv preprint arXiv:2305.12171 (2023).
+- Ha, Huy, Pete Florence, and Shuran Song. ["Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition."](https://arxiv.org/pdf/2307.14535) arXiv preprint arXiv:2307.14535 (2023).
 
+- Xu, Mengda, et al. ["XSkill: Cross Embodiment Skill Discovery."](https://arxiv.org/pdf/2307.09955) arXiv preprint arXiv:2307.09955 (2023).
+
+- Li, Xiang, et al. ["Crossway Diffusion: Improving Diffusion-based Visuomotor Policy via Self-supervised Learning."](https://arxiv.org/pdf/2307.01849) arXiv preprint arXiv:2307.01849 (2023).
+
+- Ng, Eley, Ziang Liu, and Monroe Kennedy III. ["Diffusion Co-Policy for Synergistic Human-Robot Collaborative Tasks."](https://arxiv.org/pdf/2305.12171) arXiv preprint arXiv:2305.12171 (2023).
 
 - Chi, Cheng, et al. ["Diffusion Policy: Visuomotor Policy Learning via Action Diffusion."](https://arxiv.org/pdf/2303.04137) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
@@ -69,8 +76,6 @@ Since the modern diffusion models have been around for only 2 years, the literat
 - Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
 - Jiang, Chiyu, et al. ["MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion."](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_MotionDiffuser_Controllable_Multi-Agent_Motion_Prediction_Using_Diffusion_CVPR_2023_paper.pdf) Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
-
-- Zhang, Edwin, et al. ["LAD: Language Augmented Diffusion for Reinforcement Learning."](https://arxiv.org/pdf/2210.15629.pdf) arXiv preprint arXiv:2210.15629 (2022).
 
 - Kapelyukh, Ivan, et al. ["DALL-E-Bot: Introducing Web-Scale Diffusion Models to Robotics."](https://openreview.net/forum?id=HzOy6lUzPj1) _IEEE Robotics and Automation Letters (RA-L)_ 2023.
 
@@ -96,11 +101,15 @@ The number of papers  The standard policy gradient objective requires the gradie
 ### Offline RL
 <a name="Offline-RL"></a>
 
+- Yuan, Hui, et al. ["Reward-Directed Conditional Diffusion: Provable Distribution Estimation and Reward Improvement."](https://arxiv.org/pdf/2307.07055) arXiv preprint arXiv:2307.07055 (2023).
+
 - Hu, Jifeng, et al. ["Instructed Diffuser with Temporal Condition Guidance for Offline Reinforcement Learning."](https://arxiv.org/pdf/2306.04875) arXiv preprint arXiv:2306.04875 (2023).
 
 - Hegde, Shashank, et al. ["Generating Behaviorally Diverse Policies with Latent Diffusion Models."](https://arxiv.org/pdf/2305.18738) arXiv preprint arXiv:2305.18738 (2023).
 
 - Xiao, Wei, et al. ["SafeDiffuser: Safe Planning with Diffusion Probabilistic Models."](https://arxiv.org/pdf/2306.00148) arXiv preprint arXiv:2306.00148 (2023).
+
+- Li, Wenhao, et al. ["Hierarchical Diffusion for Offline Decision Making."](https://openreview.net/pdf?id=55kLa7tH9o) _International Conference on Machine Learning_. PMLR, 2023.
 
 - Liang, Zhixuan, et al. ["AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners."](https://arxiv.org/pdf/2302.01877) _International Conference on Machine Learning_. PMLR, 2023.
 
@@ -141,12 +150,10 @@ The number of papers  The standard policy gradient objective requires the gradie
 
 - Nuti, Felipe, Tim Franzmeyer, and João F. Henriques. ["Extracting Reward Functions from Diffusion Models."](https://arxiv.org/pdf/2306.01804) arXiv preprint arXiv:2306.01804 (2023).
 
-
 ---
 
-### Grasping & Tactile Sensing & Pose Estimation
-
-<a name="Grasping-&-Tactile-Sensing-&-Pose-Estimation"></a>
+### Task and Motion Planning
+<a name="tamp"></a>
 
 - Fang, Xiaolin, et al. ["DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability."](https://arxiv.org/pdf/2306.13196) arXiv preprint arXiv:2306.13196 (2023).
 
@@ -154,11 +161,20 @@ The number of papers  The standard policy gradient objective requires the gradie
 
 - Mishra, Utkarsh A., and Yongxin Chen. ["ReorientDiff: Diffusion Model based Reorientation for Object Manipulation."](https://arxiv.org/pdf/2303.12700) _RSS 2023 Workshop on Learning for Task and Motion Planning_
 
-- Higuera, Carolina, Byron Boots, and Mustafa Mukadam. ["Learning to Read Braille: Bridging the Tactile Reality Gap with Diffusion Models."](https://arxiv.org/pdf/2304.01182) arXiv preprint arXiv:2304.01182 (2023).
-
 - Urain, Julen, et al. ["SE (3)-DiffusionFields: Learning cost functions for joint grasp and motion optimization through diffusion."](https://arxiv.org/pdf/2209.03855) _IEEE International Conference on Robotics and Automation (ICRA)_ 2023
 
 - Carvalho, J. et al. [Conditioned Score-Based Models for Learning Collision-Free Trajectory Generation](https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoaoCarvalho/Conditioned_Score_Based_Models_for_Learning_Collision_Free_Trajectory_Generation.pdf), _NeurIPS 2022 Workshop on Score-Based Methods_ 
+
+---
+
+### Tactile Sensing & Pose Estimation
+
+<a name="Grasping-&-Tactile-Sensing-&-Pose-Estimation"></a>
+
+- Simeonov, Anthony, et al. ["Shelving, Stacking, Hanging: Relational Pose Diffusion for Multi-modal Rearrangement."](https://arxiv.org/pdf/2307.04751) arXiv preprint arXiv:2307.04751 (2023).
+
+- Higuera, Carolina, Byron Boots, and Mustafa Mukadam. ["Learning to Read Braille: Bridging the Tactile Reality Gap with Diffusion Models."](https://arxiv.org/pdf/2304.01182) arXiv preprint arXiv:2304.01182 (2023).
+
 
 ---
 
@@ -169,7 +185,7 @@ There exist numerous implementations of all diffusion models on github. Below yo
 
 - [Diffusers](https://github.com/huggingface/diffusers): the main diffusion project from HuggingFaces with numerous pre-trained diffusion models ready to use 
 
-- [k-diffusion](https://github.com/crowsonkb/k-diffusion): while its not the official code-base of the EDM diffusion models from [Karras et al., 2022](https://arxiv.org/pdf/2206.00364), it has very clean code and numerous samplers. Parts of teh code have been used in various other projects such as [Consistency Models](https://github.com/openai/consistency_models) from OpenAI and diffusers from HuggingFaces.
+- [k-diffusion](https://github.com/crowsonkb/k-diffusion): while its not the official code-base of the EDM diffusion models from [Karras et al., 2022](https://arxiv.org/pdf/2206.00364), it has very clean code and numerous samplers. Parts of the code have been used in various other projects such as [Consistency Models](https://github.com/openai/consistency_models) from OpenAI and diffusers from HuggingFaces.
 
 - [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch): a clean DDPM diffusion model implementation in Pytorch to get a good understanding of all the components 
 
@@ -192,6 +208,7 @@ There are two perspectives to view diffusion models. The first one is based on t
 In 2020, [Ho et al., (2020)](https://arxiv.org/abs/2006.11239) introduced  _denoising diffusion probabilistic models (DDPM)_, which served as the foundation for the success of Diffusion models. At that time, Diffusion models still were not  competitive with state-of-the-art generate models such as GANs. However, this changed rapidly the following year when [Nichol & Dhariwal (2021)](https://arxiv.org/abs/2105.05233) improved upon the previous paper and demonstrated, that Diffusion models are competitive with GANs on image synthesis tasks. Nevertheless, it is important to note, that Diffusion models are not the jack of all trades. Diffusion models still struggle with certain image traits such as generating realistic faces or generating the right amount of fingers. 
 
 Another important idea for diffusion models in the context of image generation has been the introduction of _latent diffusion models_ by [Rombach & Blattman et al., (2022)](https://arxiv.org/abs/2112.1075). By training the diffusion model in the latent space rather than the image space directly, they were able to improve the sampling and training speed and made it possible for everyone to run their own diffusion model on local PCs with a single GPU. Recent AI generated art is mostly based on the stable AI implementation of latent diffusion models and is open source: [Github repo](https://github.com/CompVis/stable-diffusion). Check out some cool Diffusion art on the [stable-diffusion-reddit](https://www.reddit.com/r/StableDiffusion/).
+
 
 **Conditional Diffusion models**
 The initial diffusion models are usually trained on marginal distributions $p(x)$, but conditional image generation is also an research area of great interest. Therefore, we need conditional diffusion models to _guide_ the generation process. Currently, there are three common methods to enable conditional generation with diffusion models:
