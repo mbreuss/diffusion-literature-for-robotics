@@ -59,9 +59,15 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
-- Ha, Huy, Pete Florence, and Shuran Song. ["Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition."](https://arxiv.org/pdf/2307.14535) arXiv preprint arXiv:2307.14535 (2023).
+- Zhou, Xian, et al. ["Unifying Diffusion Models with Action Detection Transformers for Multi-task Robotic Manipulation."](https://openreview.net/pdf?id=W0zgY2mBTA8) _Conference on Robot Learning._ PMLR, 2023.
 
-- Xu, Mengda, et al. ["XSkill: Cross Embodiment Skill Discovery."](https://arxiv.org/pdf/2307.09955) arXiv preprint arXiv:2307.09955 (2023).
+- Mishra, Utkarsh Aashu, et al. ["Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models."](https://openreview.net/pdf?id=HtJE9ly5dT) _Conference on Robot Learning._ PMLR, 2023.
+
+- Chen, Lili, et al. ["PlayFusion: Skill Acquisition via Diffusion from Language-Annotated Play."](https://openreview.net/pdf?id=afF8RGcBBP) _Conference on Robot Learning._ PMLR, 2023.
+
+- Ha, Huy, Pete Florence, and Shuran Song. ["Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition."](https://arxiv.org/pdf/2307.14535) _Conference on Robot Learning._ PMLR, 2023.
+
+- Xu, Mengda, et al. ["XSkill: Cross Embodiment Skill Discovery."](https://arxiv.org/pdf/2307.09955) _Conference on Robot Learning._ PMLR, 2023.
 
 - Li, Xiang, et al. ["Crossway Diffusion: Improving Diffusion-based Visuomotor Policy via Self-supervised Learning."](https://arxiv.org/pdf/2307.01849) arXiv preprint arXiv:2307.01849 (2023).
 
@@ -90,7 +96,7 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Online RL 
 <a name="Online-RL"></a>
 
-The number of papers  The standard policy gradient objective requires the gradient of the log-likelihood, which is only implicitly defined by the underlying Ordinary Differential Equation (ODE) of the diffusion model. 
+The standard policy gradient objective requires the gradient of the log-likelihood, which is only implicitly defined by the underlying Ordinary Differential Equation (ODE) of the diffusion model. 
 
 - Yang, Long, et al. ["Policy Representation via Diffusion Probability Model for Reinforcement Learning."](https://arxiv.org/pdf/2305.13122) arXiv preprint arXiv:2305.13122 (2023).
 
@@ -100,6 +106,8 @@ The number of papers  The standard policy gradient objective requires the gradie
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
+- Suh, H.J., et al. ["Fighting Uncertainty with Gradients: Offline Reinforcement Learning via Diffusion Score Matching."](https://openreview.net/pdf?id=IM8zOC94HF) _Conference on Robot Learning._ PMLR, 2023.
 
 - Yuan, Hui, et al. ["Reward-Directed Conditional Diffusion: Provable Distribution Estimation and Reward Improvement."](https://arxiv.org/pdf/2307.07055) arXiv preprint arXiv:2307.07055 (2023).
 
@@ -154,6 +162,8 @@ The number of papers  The standard policy gradient objective requires the gradie
 
 ### Task and Motion Planning
 <a name="tamp"></a>
+
+- Zhong, Ziyuan, et al. ["Language-Guided Traffic Simulation via Scene-Level Diffusion."](https://openreview.net/pdf?id=nKWQnYkkwX) _Conference on Robot Learning._ PMLR, 2023.
 
 - Fang, Xiaolin, et al. ["DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability."](https://arxiv.org/pdf/2306.13196) arXiv preprint arXiv:2306.13196 (2023).
 
