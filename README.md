@@ -59,6 +59,10 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Ajay, Anurag, et al. ["Compositional Foundation Models for Hierarchical Planning."](https://arxiv.org/pdf/2309.08587) _Advances in Neural Information Processing Systems_ 37 (2023)
+
+- Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) _Advances in Neural Information Processing Systems_ 37 (2023)
+
 - Zhou, Xian, et al. ["Unifying Diffusion Models with Action Detection Transformers for Multi-task Robotic Manipulation."](https://openreview.net/pdf?id=W0zgY2mBTA8) _Conference on Robot Learning._ PMLR, 2023.
 
 - Mishra, Utkarsh Aashu, et al. ["Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models."](https://openreview.net/pdf?id=HtJE9ly5dT) _Conference on Robot Learning._ PMLR, 2023.
@@ -78,8 +82,6 @@ Since the modern diffusion models have been around for only 3 years, the literat
 - Reuss, Moritz, et al. ["Goal-Conditioned Imitation Learning using Score-based Diffusion Policies."](https://arxiv.org/pdf/2304.02532) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
 
 - Yoneda, Takuma, et al. ["To the Noise and Back: Diffusion for Shared Autonomy."](https://arxiv.org/pdf/2302.12244) _Proceedings of Robotics: Science and Systems (RSS)_ 2023.
-
-- Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) arXiv preprint arXiv:2302.00111 (2023).
 
 - Jiang, Chiyu, et al. ["MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion."](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_MotionDiffuser_Controllable_Multi-Agent_Motion_Prediction_Using_Diffusion_CVPR_2023_paper.pdf) Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
 
@@ -156,12 +158,16 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### Inverse RL
 <a name="Inverse-RL"></a>
 
-- Nuti, Felipe, Tim Franzmeyer, and João F. Henriques. ["Extracting Reward Functions from Diffusion Models."](https://arxiv.org/pdf/2306.01804) arXiv preprint arXiv:2306.01804 (2023).
+- Nuti, Felipe, Tim Franzmeyer, and João F. Henriques. ["Extracting Reward Functions from Diffusion Models."](https://arxiv.org/pdf/2306.01804) _Advances in Neural Information Processing Systems_ 37 (2023)
 
 ---
 
 ### Task and Motion Planning
 <a name="tamp"></a>
+
+- Saha, Kallol, et al. ["EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning."](https://arxiv.org/pdf/2309.11414) arXiv preprint arXiv:2309.11414 (2023).
+
+- Power, Thomas, et al. ["Sampling Constrained Trajectories Using Composable Diffusion Models."](https://openreview.net/pdf?id=UAylEpIMNE) IROS 2023 Workshop on Differentiable Probabilistic Robotics: Emerging Perspectives on Robot Learning. 2023.
 
 - Zhong, Ziyuan, et al. ["Language-Guided Traffic Simulation via Scene-Level Diffusion."](https://openreview.net/pdf?id=nKWQnYkkwX) _Conference on Robot Learning._ PMLR, 2023.
 
