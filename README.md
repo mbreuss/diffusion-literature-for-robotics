@@ -109,6 +109,10 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### Offline RL
 <a name="Offline-RL"></a>
 
+- Jain, Vineet, and Siamak Ravanbakhsh. ["Learning to Reach Goals via Diffusion."](https://arxiv.org/pdf/2310.02505) arXiv preprint arXiv:2310.02505 (2023).
+
+- Geng, Jinkun, et al. ["Diffusion Policies as Multi-Agent Reinforcement Learning Strategies."](https://link.springer.com/chapter/10.1007/978-3-031-44213-1_30) International Conference on Artificial Neural Networks. Cham: Springer Nature Switzerland, 2023.
+
 - Suh, H.J., et al. ["Fighting Uncertainty with Gradients: Offline Reinforcement Learning via Diffusion Score Matching."](https://openreview.net/pdf?id=IM8zOC94HF) _Conference on Robot Learning._ PMLR, 2023.
 
 - Yuan, Hui, et al. ["Reward-Directed Conditional Diffusion: Provable Distribution Estimation and Reward Improvement."](https://arxiv.org/pdf/2307.07055) arXiv preprint arXiv:2307.07055 (2023).
@@ -130,7 +134,6 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 - Kang, Bingyi, et al. ["Efficient Diffusion Policies for Offline Reinforcement Learning."](https://arxiv.org/pdf/2305.20081) arXiv preprint arXiv:2305.20081 (2023).
 
 - Ni, Fei, et al. ["MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL."](https://arxiv.org/pdf/2305.19923) _International Conference on Machine Learning_. PMLR, 2023.
-
 
 - He, Haoran, et al. ["Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning."](https://arxiv.org/pdf/2305.18459) arXiv preprint arXiv:2305.18459 (2023).
 
@@ -164,6 +167,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Task and Motion Planning
 <a name="tamp"></a>
+
+- Carvalho, Joao, et al. ["Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models."](https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoaoCarvalho/2023-iros-carvalho-mpd.pdf), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). (2023)
 
 - Saha, Kallol, et al. ["EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning."](https://arxiv.org/pdf/2309.11414) arXiv preprint arXiv:2309.11414 (2023).
 
