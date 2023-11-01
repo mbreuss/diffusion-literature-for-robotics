@@ -7,15 +7,17 @@ Summary of the most important papers and blogs about diffusion models for people
 
     2.1 [Imitation Learning and Policy Learning](#Imitation-Learning-and-Policy-Learning)
 
-    2.2 [Online RL](#Online-RL)
+    2.2 [Video Diffusion in Robotics](#Video-Diffusion)
+
+    2.3 [Online RL](#Online-RL)
     
-    2.3 [Offline RL](#Offline-RL)
+    2.4 [Offline RL](#Offline-RL)
 
-    2.4 [Inverse RL](#Inverse-RL)
+    2.5 [Inverse RL](#Inverse-RL)
 
-    2.5 [Task and Motion Planning](#tamp)
+    2.6 [Task and Motion Planning](#tamp)
 
-    2.5 [Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
+    2.7 [Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
 
 3. [Code Implementations](#Code-Bases)
 
@@ -59,11 +61,13 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
-- Ajay, Anurag, et al. ["Compositional Foundation Models for Hierarchical Planning."](https://arxiv.org/pdf/2309.08587) _Advances in Neural Information Processing Systems_ 37 (2023)
+- Reuss, Moritz, and Rudolf Lioutikov. ["Multimodal Diffusion Transformer for Learning from Play."](https://openreview.net/pdf?id=nvtxqMGpn1) 2nd Workshop on Language and Robot Learning: Language as Grounding. 2023.
 
-- Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) _Advances in Neural Information Processing Systems_ 37 (2023)
+- Sridhar, Ajay, et al. ["NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration."](https://arxiv.org/pdf/2310.07896) arXiv preprint arXiv:2310.07896 (2023).
 
 - Zhou, Xian, et al. ["Unifying Diffusion Models with Action Detection Transformers for Multi-task Robotic Manipulation."](https://openreview.net/pdf?id=W0zgY2mBTA8) _Conference on Robot Learning._ PMLR, 2023.
+
+- Ze, Yanjie, et al. ["Multi-task real robot learning with generalizable neural feature fields."](https://openreview.net/pdf?id=b1tl3aOt2R2) 7th Annual Conference on Robot Learning. 2023.
 
 - Mishra, Utkarsh Aashu, et al. ["Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models."](https://openreview.net/pdf?id=HtJE9ly5dT) _Conference on Robot Learning._ PMLR, 2023.
 
@@ -92,6 +96,23 @@ Since the modern diffusion models have been around for only 3 years, the literat
 
 - Yu, Tianhe, et al. ["Scaling robot learning with semantically imagined experience."](https://arxiv.org/pdf/2302.11550.pdf) arXiv preprint arXiv:2302.11550 (2023).
 
+---
+
+### Video Diffusion in Robotics
+<a name="Video-Diffusion"></a>
+
+The ability of Diffusion models to generate realistic videos over a long horizon has enabled new applications in the context of robotics. 
+
+- Du, Yilun, et al. ["Video Language Planning."](https://arxiv.org/abs/2310.10625) arXiv preprint arXiv:2310.10625 (2023).
+
+- Yang, Mengjiao, et al. ["Learning Interactive Real-World Simulators."](https://arxiv.org/abs/2310.06114) arXiv preprint arXiv:2310.06114 (2023).
+
+- Ko, Po-Chen, et al. ["Learning to Act from Actionless Videos through Dense Correspondences."](https://arxiv.org/pdf/2310.08576) arXiv preprint arXiv:2310.08576 (2023).
+
+- Ajay, Anurag, et al. ["Compositional Foundation Models for Hierarchical Planning."](https://arxiv.org/pdf/2309.08587) _Advances in Neural Information Processing Systems_ 37 (2023)
+
+- Dai, Yilun, et al. ["Learning Universal Policies via Text-Guided Video Generation."](https://arxiv.org/pdf/2302.00111) _Advances in Neural Information Processing Systems_ 37 (2023)
+
 
 ---
 
@@ -103,11 +124,15 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 - Yang, Long, et al. ["Policy Representation via Diffusion Probability Model for Reinforcement Learning."](https://arxiv.org/pdf/2305.13122) arXiv preprint arXiv:2305.13122 (2023).
 
 - Mazoure, Bogdan, et al. ["Value function estimation using conditional diffusion models for control."](https://arxiv.org/pdf/2306.07290) arXiv preprint arXiv:2306.07290 (2023).
-
 --- 
+
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
+- Chen, Huayu, et al. ["Score Regularized Policy Optimization through Diffusion Behavior."](https://arxiv.org/pdf/2310.07297) arXiv preprint arXiv:2310.07297 (2023).
+
+- Zhou, Siyuan, et al. ["Adaptive Online Replanning with Diffusion Models."](https://arxiv.org/pdf/2310.09629) _Advances in Neural Information Processing Systems_ 37 (2023)
 
 - Jain, Vineet, and Siamak Ravanbakhsh. ["Learning to Reach Goals via Diffusion."](https://arxiv.org/pdf/2310.02505) arXiv preprint arXiv:2310.02505 (2023).
 
@@ -168,6 +193,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### Task and Motion Planning
 <a name="tamp"></a>
 
+- Yang, Zhutian, et al. ["Compositional Diffusion-Based Continuous Constraint Solvers."](https://openreview.net/forum?id=BimpCf1rT7) 7th Annual Conference on Robot Learning. 2023.
+
 - Carvalho, Joao, et al. ["Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models."](https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoaoCarvalho/2023-iros-carvalho-mpd.pdf), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). (2023)
 
 - Saha, Kallol, et al. ["EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning."](https://arxiv.org/pdf/2309.11414) arXiv preprint arXiv:2309.11414 (2023).
@@ -191,6 +218,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### Tactile Sensing & Pose Estimation
 
 <a name="Grasping-&-Tactile-Sensing-&-Pose-Estimation"></a>
+
+- Yoneda, Takuma, et al. ["6-DoF Stability Field via Diffusion Models."](https://arxiv.org/pdf/2310.17649) arXiv preprint arXiv:2310.17649 (2023).
 
 - Simeonov, Anthony, et al. ["Shelving, Stacking, Hanging: Relational Pose Diffusion for Multi-modal Rearrangement."](https://arxiv.org/pdf/2307.04751) arXiv preprint arXiv:2307.04751 (2023).
 
