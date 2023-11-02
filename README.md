@@ -61,6 +61,8 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Black, Kevin, et al. ["ZERO-SHOT ROBOTIC MANIPULATION WITH PRETRAINED IMAGE-EDITING DIFFUSION MODELS."](https://arxiv.org/pdf/2310.10639) arXiv preprint arXiv:2310.10639 (2023).
+
 - Reuss, Moritz, and Rudolf Lioutikov. ["Multimodal Diffusion Transformer for Learning from Play."](https://openreview.net/pdf?id=nvtxqMGpn1) 2nd Workshop on Language and Robot Learning: Language as Grounding. 2023.
 
 - Sridhar, Ajay, et al. ["NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration."](https://arxiv.org/pdf/2310.07896) arXiv preprint arXiv:2310.07896 (2023).
