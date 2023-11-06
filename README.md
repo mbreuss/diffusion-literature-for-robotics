@@ -134,6 +134,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 - Chen, Huayu, et al. ["Score Regularized Policy Optimization through Diffusion Behavior."](https://arxiv.org/pdf/2310.07297) arXiv preprint arXiv:2310.07297 (2023).
 
+- Lee, Kyowoon, Seongun Kim, and Jaesik Choi. ["Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans."](https://arxiv.org/pdf/2310.19427) _Advances in Neural Information Processing Systems_ 37 (2023)
+
 - Zhou, Siyuan, et al. ["Adaptive Online Replanning with Diffusion Models."](https://arxiv.org/pdf/2310.09629) _Advances in Neural Information Processing Systems_ 37 (2023)
 
 - Jain, Vineet, and Siamak Ravanbakhsh. ["Learning to Reach Goals via Diffusion."](https://arxiv.org/pdf/2310.02505) arXiv preprint arXiv:2310.02505 (2023).
