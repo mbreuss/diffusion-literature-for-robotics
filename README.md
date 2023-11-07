@@ -19,6 +19,8 @@ Summary of the most important papers and blogs about diffusion models for people
 
     2.7 [Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
 
+    2.8 [Robot Design and Development](#Robot-Design-and-Construction)
+
 3. [Code Implementations](#Code-Bases)
 
 4. [Diffusion History](#Diffusion-History)
@@ -229,6 +231,16 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 - Higuera, Carolina, Byron Boots, and Mustafa Mukadam. ["Learning to Read Braille: Bridging the Tactile Reality Gap with Diffusion Models."](https://arxiv.org/pdf/2304.01182) arXiv preprint arXiv:2304.01182 (2023).
 
+
+---
+
+### Robot Development and Construction
+<a name="Robot-Design-and-Construction"></a>
+
+Excited to see more diffusion papers in this area in the future!
+Using generative models to design robots is a very interesting idea, since it allows to generate new robot designs and test them in simulation before building them in the real world. 
+
+- Wang, Tsun-Hsuan, et al. ["DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models."](https://openreview.net/forum?id=1zo4iioUEs) Thirty-seventh Conference on Neural Information Processing Systems. 2023.
 
 ---
 
