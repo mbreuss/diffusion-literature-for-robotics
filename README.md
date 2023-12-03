@@ -134,9 +134,17 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### Offline RL
 <a name="Offline-RL"></a>
 
+- Venkatraman, Siddarth, et al. ["Reasoning with latent diffusion in offline reinforcement learning."](https://arxiv.org/pdf/2309.06599) arXiv preprint arXiv:2309.06599 (2023).
+
 - Chen, Huayu, et al. ["Score Regularized Policy Optimization through Diffusion Behavior."](https://arxiv.org/pdf/2310.07297) arXiv preprint arXiv:2310.07297 (2023).
 
+- Ding, Zihan, and Chi Jin. ["Consistency Models as a Rich and Efficient Policy Class for Reinforcement Learning."](https://arxiv.org/pdf/2309.16984) arXiv preprint arXiv:2309.16984 (2023).
+
+- Wang, Zidan, et al. ["Cold Diffusion on the Replay Buffer: Learning to Plan from Known Good States."](https://arxiv.org/pdf/2310.13914) arXiv preprint arXiv:2310.13914 (2023).
+
 - Lee, Kyowoon, Seongun Kim, and Jaesik Choi. ["Refining Diffusion Planner for Reliable Behavior Synthesis by Automatic Detection of Infeasible Plans."](https://arxiv.org/pdf/2310.19427) _Advances in Neural Information Processing Systems_ 37 (2023)
+
+- Liu, Jianwei, Maria Stamatopoulou, and Dimitrios Kanoulas. ["DiPPeR: Diffusion-based 2D Path Planner applied on Legged Robots."](https://arxiv.org/pdf/2310.07842) arXiv preprint arXiv:2310.07842 (2023).
 
 - Zhou, Siyuan, et al. ["Adaptive Online Replanning with Diffusion Models."](https://arxiv.org/pdf/2310.09629) _Advances in Neural Information Processing Systems_ 37 (2023)
 
@@ -198,6 +206,10 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Task and Motion Planning
 <a name="tamp"></a>
+
+- Chang, Junwoo, et al. ["Denoising Heat-inspired Diffusion with Insulators for Collision Free Motion Planning."](https://arxiv.org/abs/2310.12609) NeurIPS 2023 Workshop on Diffusion Models
+
+- Ryu, Hyunwoo, et al. ["Diffusion-edfs: Bi-equivariant denoising generative modeling on se (3) for visual robotic manipulation."](https://arxiv.org/pdf/2309.02685.pdf) arXiv preprint arXiv:2309.02685 (2023).
 
 - Yang, Zhutian, et al. ["Compositional Diffusion-Based Continuous Constraint Solvers."](https://openreview.net/forum?id=BimpCf1rT7) 7th Annual Conference on Robot Learning. 2023.
 
