@@ -63,6 +63,10 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Scheikl, Paul Maria, et al. ["Movement Primitive Diffusion: Learning Gentle Robotic Manipulation of Deformable Objects."](https://arxiv.org/pdf/2312.10008) arXiv preprint arXiv:2312.10008 (2023).
+
+- Octo Model Team et al. [Octo: An Open-Source Generalist Robot Policy](https://octo-models.github.io/paper.pdf) 
+
 - Black, Kevin, et al. ["ZERO-SHOT ROBOTIC MANIPULATION WITH PRETRAINED IMAGE-EDITING DIFFUSION MODELS."](https://arxiv.org/pdf/2310.10639) arXiv preprint arXiv:2310.10639 (2023).
 
 - Reuss, Moritz, and Rudolf Lioutikov. ["Multimodal Diffusion Transformer for Learning from Play."](https://openreview.net/pdf?id=nvtxqMGpn1) 2nd Workshop on Language and Robot Learning: Language as Grounding. 2023.
@@ -107,6 +111,10 @@ Since the modern diffusion models have been around for only 3 years, the literat
 
 The ability of Diffusion models to generate realistic videos over a long horizon has enabled new applications in the context of robotics. 
 
+- Liang, Zhixuan, et al. ["SkillDiffuser: Interpretable Hierarchical Planning via Skill Abstractions in Diffusion-Based Task Execution."](https://arxiv.org/pdf/2312.11598) arXiv preprint arXiv:2312.11598 (2023).
+
+- Huang, Tao, et al. ["Diffusion Reward: Learning Rewards via Conditional Video Diffusion."](https://arxiv.org/pdf/2312.14134) arXiv preprint arXiv:2312.14134 (2023).
+
 - Du, Yilun, et al. ["Video Language Planning."](https://arxiv.org/abs/2310.10625) arXiv preprint arXiv:2310.10625 (2023).
 
 - Yang, Mengjiao, et al. ["Learning Interactive Real-World Simulators."](https://arxiv.org/abs/2310.06114) arXiv preprint arXiv:2310.06114 (2023).
@@ -133,6 +141,10 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
+- Psenka, Michael, et al. ["Learning a Diffusion Model Policy from Rewards via Q-Score Matching."](https://arxiv.org/pdf/2312.11752) arXiv preprint arXiv:2312.11752 (2023).
+
+- Chen, Chang, et al. ["Simple Hierarchical Planning with Diffusion."](https://arxiv.org/pdf/2401.02644) arXiv preprint arXiv:2401.02644 (2024).
 
 - Venkatraman, Siddarth, et al. ["Reasoning with latent diffusion in offline reinforcement learning."](https://arxiv.org/pdf/2309.06599) arXiv preprint arXiv:2309.06599 (2023).
 
@@ -206,6 +218,10 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Task and Motion Planning
 <a name="tamp"></a>
+
+- Yang, Cheng-Fu, et al. ["Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty."](https://arxiv.org/pdf/2312.01097) arXiv preprint arXiv:2312.01097 (2023).
+
+- Liu, Jiaqi, et al. ["DDM-Lag: A Diffusion-based Decision-making Model for Autonomous Vehicles with Lagrangian Safety Enhancement."](https://arxiv.org/pdf/2401.03629) arXiv preprint arXiv:2401.03629 (2024).
 
 - Chang, Junwoo, et al. ["Denoising Heat-inspired Diffusion with Insulators for Collision Free Motion Planning."](https://arxiv.org/abs/2310.12609) NeurIPS 2023 Workshop on Diffusion Models
 
