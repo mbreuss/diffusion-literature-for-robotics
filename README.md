@@ -287,6 +287,8 @@ There exist numerous implementations of all diffusion models on github. Below yo
 
 - [diffusion_policy](https://github.com/columbia-ai-robotics/diffusion_policy): Beautiful Code implementation of Diffusion policies from [Chi et al., 2023](https://diffusion-policy.cs.columbia.edu/#paper) for Imitation Learning with 9 different simulations to test the models on
 
+- [flow-diffusion](https://github.com/flow-diffusion/AVDC): If you want to start training your own video-diffusion model, this is the right repository to start! Clean code implementations and available pre-training weights for real world dataset and two simulations.
+
 - [dpm-solver](https://github.com/LuChengTHU/dpm-solver): One of the most widely used ODE samplers for Diffusion models from [Lu et al. 2022](https://arxiv.org/abs/2206.00927) with implementations for all different diffusion models including wrappers for discrete DDPM variants 
 
 
