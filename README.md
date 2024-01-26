@@ -63,6 +63,8 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Wang, Bingzheng, et al. ["DiffAIL: Diffusion Adversarial Imitation Learning."](https://arxiv.org/pdf/2312.06348) arXiv preprint arXiv:2312.06348 (2023).
+
 - Scheikl, Paul Maria, et al. ["Movement Primitive Diffusion: Learning Gentle Robotic Manipulation of Deformable Objects."](https://arxiv.org/pdf/2312.10008) arXiv preprint arXiv:2312.10008 (2023).
 
 - Octo Model Team et al. [Octo: An Open-Source Generalist Robot Policy](https://octo-models.github.io/paper.pdf) 
