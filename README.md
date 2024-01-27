@@ -2,7 +2,7 @@
 
 > "Creating noise from data is easy; creating data from noise is generative modeling."
 
-Yang Song in "Score-Based Generative Modeling through Stochastic Differential Equations" (Song et al., 2020)[Score-Based Generative Modeling through Stochastic Differential Equations."](https://arxiv.org/pdf/2011.13456]
+Yang Song in "Score-Based Generative Modeling through Stochastic Differential Equations" [Song et al., 2020](https://arxiv.org/pdf/2011.13456)
 
 This repository offers a brief summary of essential papers and blogs on diffusion models, alongside a categorized collection of robotics diffusion papers and useful code repositories for starting your own diffusion robotics project.
 
