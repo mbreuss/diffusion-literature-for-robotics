@@ -1,5 +1,12 @@
 # Diffusion-Literature-for-Robotics
-Summary of the most important papers and blogs about diffusion models for people to learn about diffusion models. Further, it contains an overview of published robotics diffusion papers.
+
+> "Creating noise from data is easy; creating data from noise is generative modeling."
+
+Yang Song in "Score-Based Generative Modeling through Stochastic Differential Equations" (Song et al., 2020)[Score-Based Generative Modeling through Stochastic Differential Equations."](https://arxiv.org/pdf/2011.13456]
+
+This repository offers a brief summary of essential papers and blogs on diffusion models, alongside a categorized collection of robotics diffusion papers and useful code repositories for starting your own diffusion robotics project.
+
+---
 
 # Table of Contents
 1. [Learning about Diffusion models](#Learning-about-Diffusion-models)
