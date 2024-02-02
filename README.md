@@ -70,6 +70,8 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Zhang, Edwin, et al. ["Language Control Diffusion: Efficiently Scaling through Space, Time and Tasks"](https://arxiv.org/pdf/2210.15629.pdf) arXiv:2210.15629 (2022)
+
 - Wang, Bingzheng, et al. ["DiffAIL: Diffusion Adversarial Imitation Learning."](https://arxiv.org/pdf/2312.06348) arXiv preprint arXiv:2312.06348 (2023).
 
 - Scheikl, Paul Maria, et al. ["Movement Primitive Diffusion: Learning Gentle Robotic Manipulation of Deformable Objects."](https://arxiv.org/pdf/2312.10008) arXiv preprint arXiv:2312.10008 (2023).
