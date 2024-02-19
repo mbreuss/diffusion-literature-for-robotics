@@ -70,6 +70,8 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Ke et al. [3D Diffuser Actor: Policy Diffusion with 3D Scene Representations](https://arxiv.org/abs/2402.10885) 
+
 - Wang, Bingzheng, et al. ["DiffAIL: Diffusion Adversarial Imitation Learning."](https://arxiv.org/pdf/2312.06348) arXiv preprint arXiv:2312.06348 (2023).
 
 - Scheikl, Paul Maria, et al. ["Movement Primitive Diffusion: Learning Gentle Robotic Manipulation of Deformable Objects."](https://arxiv.org/pdf/2312.10008) arXiv preprint arXiv:2312.10008 (2023).
@@ -296,7 +298,9 @@ There exist numerous implementations of all diffusion models on github. Below yo
 
 - [diffusion_policy](https://github.com/columbia-ai-robotics/diffusion_policy): Beautiful Code implementation of Diffusion policies from [Chi et al., 2023](https://diffusion-policy.cs.columbia.edu/#paper) for Imitation Learning with 9 different simulations to test the models on
 
-- [octo-models](https://github.com/octo-models/octo): The first open source foundation behavior diffusion agent, pretrained on 800k trajectories of different embodiements. The JAX code allows you to download their weights and finetune your own Octo-model on your local dataset. 
+- [octo-models](https://github.com/octo-models/octo): The first open source foundation behavior diffusion agent, pretrained on 800k trajectories of different embodiements. The JAX code allows you to download their weights and finetune your own Octo-model on your local dataset.
+
+- [3d_diffuser_actor](https://github.com/nickgkan/3d_diffuser_actor): Clean code to get started with 3D-based diffusion policies on the popular RL-bench and CALVIN benchmarks. 
 
 - [flow-diffusion](https://github.com/flow-diffusion/AVDC): If you want to start training your own video-diffusion model, this is the right repository to start! Clean code implementations and available pre-training weights for real world dataset and two simulations.
 
