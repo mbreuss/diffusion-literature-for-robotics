@@ -22,11 +22,13 @@ This repository offers a brief summary of essential papers and blogs on diffusio
 
     2.5 [Inverse RL](#Inverse-RL)
 
-    2.6 [Task and Motion Planning](#tamp)
+    2.6 [World Models](#World-Models)
 
-    2.7 [Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
+    2.7 [Task and Motion Planning](#tamp)
 
-    2.8 [Robot Design and Development](#Robot-Design-and-Construction)
+    2.8 [Tactile Sensing & Pose Estimation](#Grasping-&-Tactile-Sensing-&-Pose-Estimation)
+
+    2.9 [Robot Design and Development](#Robot-Design-and-Construction)
 
 3. [Code Implementations](#Code-Bases)
 
@@ -153,9 +155,13 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### Offline RL
 <a name="Offline-RL"></a>
 
+- Kim, Sungyoon, et al. ["Stitching Sub-Trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL."](https://arxiv.org/pdf/2402.07226.pdf) arXiv preprint arXiv:2402.07226 (2024).
+
 - Psenka, Michael, et al. ["Learning a Diffusion Model Policy from Rewards via Q-Score Matching."](https://arxiv.org/pdf/2312.11752) arXiv preprint arXiv:2312.11752 (2023).
 
 - Chen, Chang, et al. ["Simple Hierarchical Planning with Diffusion."](https://arxiv.org/pdf/2401.02644) arXiv preprint arXiv:2401.02644 (2024).
+
+- Brehmer, Johann, et al. ["EDGI: Equivariant diffusion for planning with embodied agents."](https://proceedings.neurips.cc/paper_files/paper/2023/file/c95c049637c5c549c2a08e8d6dcbca4b-Paper-Conference.pdf) Advances in Neural Information Processing Systems 36 (2024).
 
 - Venkatraman, Siddarth, et al. ["Reasoning with latent diffusion in offline reinforcement learning."](https://arxiv.org/pdf/2309.06599) arXiv preprint arXiv:2309.06599 (2023).
 
@@ -224,6 +230,17 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 <a name="Inverse-RL"></a>
 
 - Nuti, Felipe, Tim Franzmeyer, and João F. Henriques. ["Extracting Reward Functions from Diffusion Models."](https://arxiv.org/pdf/2306.01804) _Advances in Neural Information Processing Systems_ 37 (2023)
+
+---
+
+### World Models
+<a name="World-Models"></a>
+
+- Ding, Zihan, et al. ["Diffusion World Model."](https://arxiv.org/html/2402.03570v1) arXiv preprint arXiv:2402.03570 (2024).
+
+- Rigter, Marc, Jun Yamada, and Ingmar Posner. ["World models via policy-guided trajectory diffusion."](https://arxiv.org/html/2312.08533v2) arXiv preprint arXiv:2312.08533 (2023).
+
+- Zhang, Lunjun, et al. ["Learning unsupervised world models for autonomous driving via discrete diffusion."](https://arxiv.org/abs/2311.01017) arXiv preprint arXiv:2311.01017 (2023).
 
 ---
 
