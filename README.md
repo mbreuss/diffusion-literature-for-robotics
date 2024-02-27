@@ -124,6 +124,8 @@ Since the modern diffusion models have been around for only 3 years, the literat
 
 The ability of Diffusion models to generate realistic videos over a long horizon has enabled new applications in the context of robotics. 
 
+- He, Haoran, et al. ["Large-Scale Actionless Video Pre-Training via Discrete Diffusion for Efficient Policy Learning."](https://arxiv.org/pdf/2402.14407v1.pdf) arXiv preprint arXiv:2402.14407 (2024).
+
 - Liang, Zhixuan, et al. ["SkillDiffuser: Interpretable Hierarchical Planning via Skill Abstractions in Diffusion-Based Task Execution."](https://arxiv.org/pdf/2312.11598) arXiv preprint arXiv:2312.11598 (2023).
 
 - Huang, Tao, et al. ["Diffusion Reward: Learning Rewards via Conditional Video Diffusion."](https://arxiv.org/pdf/2312.14134) arXiv preprint arXiv:2312.14134 (2023).
@@ -295,6 +297,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 Excited to see more diffusion papers in this area in the future!
 Using generative models to design robots is a very interesting idea, since it allows to generate new robot designs and test them in simulation before building them in the real world. 
+
+- Xu, Xiaomeng et al. ["Dynamics-Guided Diffusion Model for Robot Manipulator Design"](https://arxiv.org/pdf/2402.15038.pdf)
 
 - Wang, Tsun-Hsuan, et al. ["DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models."](https://openreview.net/forum?id=1zo4iioUEs) Thirty-seventh Conference on Neural Information Processing Systems. 2023.
 
