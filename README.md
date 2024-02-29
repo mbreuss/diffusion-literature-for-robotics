@@ -72,7 +72,9 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
-- Ke et al. [3D Diffuser Actor: Policy Diffusion with 3D Scene Representations](https://arxiv.org/abs/2402.10885) 
+- Chen, Kaiqi, et al. ["Behavioral Refinement via Interpolant-based Policy Diffusion."](https://arxiv.org/pdf/2402.16075) arXiv preprint arXiv:2402.16075 (2024).
+
+- Ke, Tsung-Wei, Nikolaos Gkanatsios, and Katerina Fragkiadaki. ["3D Diffuser Actor: Policy Diffusion with 3D Scene Representations."](https://arxiv.org/abs/2402.10885) arXiv preprint arXiv:2402.10885 (2024).
 
 - Wang, Bingzheng, et al. ["DiffAIL: Diffusion Adversarial Imitation Learning."](https://arxiv.org/pdf/2312.06348) arXiv preprint arXiv:2312.06348 (2023).
 
