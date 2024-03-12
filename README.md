@@ -72,9 +72,17 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
-- Chen, Kaiqi, et al. ["Behavioral Refinement via Interpolant-based Policy Diffusion."](https://arxiv.org/pdf/2402.16075) arXiv preprint arXiv:2402.16075 (2024).
-
 - Ke, Tsung-Wei, Nikolaos Gkanatsios, and Katerina Fragkiadaki. ["3D Diffuser Actor: Policy Diffusion with 3D Scene Representations."](https://arxiv.org/abs/2402.10885) arXiv preprint arXiv:2402.10885 (2024).
+
+- Ze, Yanjie, et al. ["3D Diffusion Policy."](https://arxiv.org/html/2403.03954v1) arXiv preprint arXiv:2403.03954 (2024).
+
+- Ma, Xiao, et al. ["Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation."](https://arxiv.org/html/2403.03890v1) arXiv preprint arXiv:2403.03890 (2024).
+
+- Yan, Ge, Yueh-Hua Wu, and Xiaolong Wang. ["DNAct: Diffusion Guided Multi-Task 3D Policy Learning."](https://arxiv.org/html/2403.04115v1) arXiv preprint arXiv:2403.04115 (2024).
+
+- Zhang, Xiaoyu, et al. ["Diffusion Meets DAgger: Supercharging Eye-in-hand Imitation Learning."](https://arxiv.org/html/2402.17768v1) arXiv preprint arXiv:2402.17768 (2024).
+
+- Chen, Kaiqi, et al. ["Behavioral Refinement via Interpolant-based Policy Diffusion."](https://arxiv.org/pdf/2402.16075) arXiv preprint arXiv:2402.16075 (2024).
 
 - Wang, Bingzheng, et al. ["DiffAIL: Diffusion Adversarial Imitation Learning."](https://arxiv.org/pdf/2312.06348) arXiv preprint arXiv:2312.06348 (2023).
 
@@ -158,6 +166,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
+- Kim, Woo Kyung, Minjong Yoo, and Honguk Woo. ["Robust Policy Learning via Offline Skill Diffusion."](https://arxiv.org/pdf/2403.00225) arXiv preprint arXiv:2403.00225 (2024).
 
 - Kim, Sungyoon, et al. ["Stitching Sub-Trajectories with Conditional Diffusion Model for Goal-Conditioned Offline RL."](https://arxiv.org/pdf/2402.07226.pdf) arXiv preprint arXiv:2402.07226 (2024).
 
