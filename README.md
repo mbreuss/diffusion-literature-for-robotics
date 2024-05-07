@@ -72,6 +72,12 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Bharadhwaj, Homanga, et al. ["Track2Act: Predicting Point Tracks from Internet Videos enables Diverse Zero-shot Robot Manipulation."](https://arxiv.org/pdf/2405.01527) arXiv preprint arXiv:2405.01527 (2024).
+
+- Reuss, Moritz, et al. ["Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals."](https://openreview.net/pdf?id=Pt6fLfXMRW) First Workshop on Vision-Language Models for Navigation and Manipulation at ICRA 2024 (2024).
+
+- Gupta, Gunshi, et al. ["Pre-trained Text-to-Image Diffusion Models Are Versatile Representation Learners for Control."](https://openreview.net/pdf?id=9A8jloU3jP) First Workshop on Vision-Language Models for Navigation and Manipulation at ICRA 2024 (2024).
+
 - Ke, Tsung-Wei, Nikolaos Gkanatsios, and Katerina Fragkiadaki. ["3D Diffuser Actor: Policy Diffusion with 3D Scene Representations."](https://arxiv.org/abs/2402.10885) arXiv preprint arXiv:2402.10885 (2024).
 
 - Ze, Yanjie, et al. ["3D Diffusion Policy."](https://arxiv.org/html/2403.03954v1) arXiv preprint arXiv:2403.03954 (2024).
@@ -133,6 +139,8 @@ Since the modern diffusion models have been around for only 3 years, the literat
 <a name="Video-Diffusion"></a>
 
 The ability of Diffusion models to generate realistic videos over a long horizon has enabled new applications in the context of robotics. 
+
+- McCarthy, Robert, et al. ["Towards Generalist Robot Learning from Internet Video: A Survey."](https://arxiv.org/pdf/2404.19664) arXiv preprint arXiv:2404.19664 (2024).
 
 - He, Haoran, et al. ["Large-Scale Actionless Video Pre-Training via Discrete Diffusion for Efficient Policy Learning."](https://arxiv.org/pdf/2402.14407v1.pdf) arXiv preprint arXiv:2402.14407 (2024).
 
