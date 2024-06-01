@@ -72,6 +72,10 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Vosylius, Vitalis, et al. ["Render and Diffuse: Aligning Image and Action Spaces for Diffusion-based Behaviour Cloning."](https://arxiv.org/pdf/2405.18196) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
+
+- Prasad, Aaditya, et al. ["Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation."](https://arxiv.org/pdf/2405.07503) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
+
 - Bharadhwaj, Homanga, et al. ["Track2Act: Predicting Point Tracks from Internet Videos enables Diverse Zero-shot Robot Manipulation."](https://arxiv.org/pdf/2405.01527) arXiv preprint arXiv:2405.01527 (2024).
 
 - Reuss, Moritz, et al. ["Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals."](https://openreview.net/pdf?id=Pt6fLfXMRW) First Workshop on Vision-Language Models for Navigation and Manipulation at ICRA 2024 (2024).
@@ -80,7 +84,7 @@ Since the modern diffusion models have been around for only 3 years, the literat
 
 - Ke, Tsung-Wei, Nikolaos Gkanatsios, and Katerina Fragkiadaki. ["3D Diffuser Actor: Policy Diffusion with 3D Scene Representations."](https://arxiv.org/abs/2402.10885) arXiv preprint arXiv:2402.10885 (2024).
 
-- Ze, Yanjie, et al. ["3D Diffusion Policy."](https://arxiv.org/html/2403.03954v1) arXiv preprint arXiv:2403.03954 (2024).
+- Ze, Yanjie, et al. ["3D Diffusion Policy."](https://arxiv.org/html/2403.03954v1) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
 
 - Ma, Xiao, et al. ["Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation."](https://arxiv.org/html/2403.03890v1) arXiv preprint arXiv:2403.03890 (2024).
 
