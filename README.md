@@ -72,13 +72,23 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Zhou, Hongyi, et al. ["Variational Distillation of Diffusion Policies into Mixture of Experts."](https://arxiv.org/pdf/2406.12538) arXiv preprint arXiv:2406.12538 (2024).
+
+- Jia, Xiaogang, et al. ["MaIL: Improving Imitation Learning with Mamba."](https://arxiv.org/pdf/2406.08234) arXiv preprint arXiv:2406.08234 (2024).
+
+- Hao, Ce, et al. ["Language-Guided Manipulation with Diffusion Policies and Constrained Inpainting."](https://arxiv.org/pdf/2406.09767) arXiv preprint arXiv:2406.09767 (2024).
+
+- Shridhar, Mohit, Yat Long Lo, and Stephen James. ["Generative Image as Action Models."](https://arxiv.org/pdf/2407.07875) arXiv preprint arXiv:2407.07875 (2024).
+
+- Høeg, Sigmund H., and Lars Tingelstad. ["TEDi Policy: Temporally Entangled Diffusion for Robotic Control."](https://arxiv.org/pdf/2406.04806) arXiv preprint arXiv:2406.04806 (2024).
+
 - Vosylius, Vitalis, et al. ["Render and Diffuse: Aligning Image and Action Spaces for Diffusion-based Behaviour Cloning."](https://arxiv.org/pdf/2405.18196) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
 
 - Prasad, Aaditya, et al. ["Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation."](https://arxiv.org/pdf/2405.07503) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
 
-- Bharadhwaj, Homanga, et al. ["Track2Act: Predicting Point Tracks from Internet Videos enables Diverse Zero-shot Robot Manipulation."](https://arxiv.org/pdf/2405.01527) arXiv preprint arXiv:2405.01527 (2024).
+- Bharadhwaj, Homanga, et al. ["Track2Act: Predicting Point Tracks from Internet Videos enables Diverse Zero-shot Robot Manipulation."](https://arxiv.org/pdf/2405.01527) ECCV  2024
 
-- Reuss, Moritz, et al. ["Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals."](https://openreview.net/pdf?id=Pt6fLfXMRW) First Workshop on Vision-Language Models for Navigation and Manipulation at ICRA 2024 (2024).
+- Reuss, Moritz, et al. ["Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals."]([https://openreview.net/pdf?id=Pt6fLfXMRW](https://arxiv.org/pdf/2407.05996)) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
 
 - Gupta, Gunshi, et al. ["Pre-trained Text-to-Image Diffusion Models Are Versatile Representation Learners for Control."](https://openreview.net/pdf?id=9A8jloU3jP) First Workshop on Vision-Language Models for Navigation and Manipulation at ICRA 2024 (2024).
 
@@ -143,6 +153,10 @@ Since the modern diffusion models have been around for only 3 years, the literat
 <a name="Video-Diffusion"></a>
 
 The ability of Diffusion models to generate realistic videos over a long horizon has enabled new applications in the context of robotics. 
+
+- Chen, Boyuan, et al. ["Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion."](https://arxiv.org/pdf/2407.01392) arXiv preprint arXiv:2407.01392 (2024).
+
+- Zhou, Siyuan, et al. ["RoboDreamer: Learning Compositional World Models for Robot Imagination."](https://arxiv.org/pdf/2404.12377) arXiv preprint arXiv:2404.12377 (2024).
 
 - McCarthy, Robert, et al. ["Towards Generalist Robot Learning from Internet Video: A Survey."](https://arxiv.org/pdf/2404.19664) arXiv preprint arXiv:2404.19664 (2024).
 
@@ -272,6 +286,10 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Task and Motion Planning
 <a name="tamp"></a>
+
+- Xu, Yiqing, et al. [""Set It Up!": Functional Object Arrangement with Compositional Generative Models."](https://arxiv.org/pdf/2405.11928) arXiv preprint arXiv:2405.11928 (2024).
+
+- Luo, Yunhao, et al. ["Potential Based Diffusion Motion Planning."](https://arxiv.org/pdf/2407.06169) arXiv preprint arXiv:2407.06169 (2024).
 
 - Yang, Cheng-Fu, et al. ["Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty."](https://arxiv.org/pdf/2312.01097) arXiv preprint arXiv:2312.01097 (2023).
 
