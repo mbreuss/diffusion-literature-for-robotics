@@ -154,7 +154,7 @@ Since the modern diffusion models have been around for only 3 years, the literat
 
 The ability of Diffusion models to generate realistic videos over a long horizon has enabled new applications in the context of robotics. 
 
-- - Wang, Boyang, et al. ["This&That: Language-Gesture Controlled Video Generation for Robot Planning."](https://arxiv.org/pdf/2407.05530) arXiv:2407.05530 (2024).
+- Wang, Boyang, et al. ["This&That: Language-Gesture Controlled Video Generation for Robot Planning."](https://arxiv.org/pdf/2407.05530) arXiv:2407.05530 (2024).
 
 - Chen, Boyuan, et al. ["Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion."](https://arxiv.org/pdf/2407.01392) arXiv preprint arXiv:2407.01392 (2024).
 
