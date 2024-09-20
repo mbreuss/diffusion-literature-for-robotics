@@ -72,13 +72,31 @@ Since the modern diffusion models have been around for only 3 years, the literat
 ### Imitation Learning and Policy Learning
 <a name="Imitation-Learning-and-Policy-Learning"></a>
 
+- Ke, Tsung-Wei, Nikolaos Gkanatsios, and Katerina Fragkiadaki. ["3D Diffuser Actor: Policy Diffusion with 3D Scene Representations."](https://arxiv.org/abs/2402.10885) 8th Annual Conference on Robot Learning.
+
+- Djeumou, Franck, et al. ["One Model to Drift Them All: Physics-Informed Conditional Diffusion Model for Driving at the Limits."](https://openreview.net/pdf?id=0gDbaEtVrd) 8th Annual Conference on Robot Learning.
+
+- Blank, Nils, et al. ["Scaling Robot Policy Learning via Zero-Shot Labeling with Foundation Models."](https://openreview.net/pdf?id=EdVNB2kHv1) 8th Annual Conference on Robot Learning.
+
+- Wang, Yixiao, et al. ["Sparse Diffusion Policy: A Sparse, Reusable, and Flexible Policy for Robot Learning."](https://arxiv.org/pdf/2407.01531) arXiv preprint arXiv:2407.01531 (2024).
+
+- Wang, Dian, et al. ["Equivariant Diffusion Policy."](https://openreview.net/forum?id=wD2kUVLT1g) 8th Annual Conference on Robot Learning.
+
+- Wang, Yixuan, et al. ["GenDP: 3D Semantic Fields for Category-Level Generalizable Diffusion Policy."](https://openreview.net/forum?id=7wMlwhCvjS) 8th Annual Conference on Robot Learning.
+
+- Yang, Jingyun, et al. ["EquiBot: SIM (3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning."](https://openreview.net/forum?id=ueBmGhLOXP) 8th Annual Conference on Robot Learning.
+
+- Huang, Xiaoyu, et al. ["DiffuseLoco: Real-Time Legged Locomotion Control with Diffusion from Offline Datasets."](https://openreview.net/forum?id=nVJm2RdPDu) arXiv preprint arXiv:2404.19264 (2024).
+
+- Djeumou, Franck, et al. ["One Model to Drift Them All: Physics-Informed Conditional Diffusion Model for Driving at the Limits."] 8th Annual Conference on Robot Learning.
+
+- Jia, Xiaogang, et al. ["MaIL: Improving Imitation Learning with Mamba."](https://arxiv.org/pdf/2406.08234) 8th Annual Conference on Robot Learning.
+
+- Shridhar, Mohit, Yat Long Lo, and Stephen James. ["Generative Image as Action Models."](https://arxiv.org/pdf/2407.07875) 8th Annual Conference on Robot Learning.
+
 - Zhou, Hongyi, et al. ["Variational Distillation of Diffusion Policies into Mixture of Experts."](https://arxiv.org/pdf/2406.12538) arXiv preprint arXiv:2406.12538 (2024).
 
-- Jia, Xiaogang, et al. ["MaIL: Improving Imitation Learning with Mamba."](https://arxiv.org/pdf/2406.08234) arXiv preprint arXiv:2406.08234 (2024).
-
 - Hao, Ce, et al. ["Language-Guided Manipulation with Diffusion Policies and Constrained Inpainting."](https://arxiv.org/pdf/2406.09767) arXiv preprint arXiv:2406.09767 (2024).
-
-- Shridhar, Mohit, Yat Long Lo, and Stephen James. ["Generative Image as Action Models."](https://arxiv.org/pdf/2407.07875) arXiv preprint arXiv:2407.07875 (2024).
 
 - Høeg, Sigmund H., and Lars Tingelstad. ["TEDi Policy: Temporally Entangled Diffusion for Robotic Control."](https://arxiv.org/pdf/2406.04806) arXiv preprint arXiv:2406.04806 (2024).
 
@@ -91,8 +109,6 @@ Since the modern diffusion models have been around for only 3 years, the literat
 - Reuss, Moritz, et al. ["Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals."]([https://openreview.net/pdf?id=Pt6fLfXMRW](https://arxiv.org/pdf/2407.05996)) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
 
 - Gupta, Gunshi, et al. ["Pre-trained Text-to-Image Diffusion Models Are Versatile Representation Learners for Control."](https://openreview.net/pdf?id=9A8jloU3jP) First Workshop on Vision-Language Models for Navigation and Manipulation at ICRA 2024 (2024).
-
-- Ke, Tsung-Wei, Nikolaos Gkanatsios, and Katerina Fragkiadaki. ["3D Diffuser Actor: Policy Diffusion with 3D Scene Representations."](https://arxiv.org/abs/2402.10885) arXiv preprint arXiv:2402.10885 (2024).
 
 - Ze, Yanjie, et al. ["3D Diffusion Policy."](https://arxiv.org/html/2403.03954v1) _Proceedings of Robotics: Science and Systems (RSS)_ 2024.
 
@@ -186,6 +202,10 @@ The ability of Diffusion models to generate realistic videos over a long horizon
 
 The standard policy gradient objective requires the gradient of the log-likelihood, which is only implicitly defined by the underlying Ordinary Differential Equation (ODE) of the diffusion model. 
 
+- Ren, Allen Z., et al. ["Diffusion Policy Policy Optimization."](https://arxiv.org/abs/2409.00588) arXiv preprint arXiv:2409.00588 (2024).
+
+- Shribak, Dmitry, et al. ["Diffusion Spectral Representation for Reinforcement Learning."](https://arxiv.org/pdf/2406.16121) arXiv preprint arXiv:2406.16121 (2024).
+
 - Yang, Long, et al. ["Policy Representation via Diffusion Probability Model for Reinforcement Learning."](https://arxiv.org/pdf/2305.13122) arXiv preprint arXiv:2305.13122 (2023).
 
 - Mazoure, Bogdan, et al. ["Value function estimation using conditional diffusion models for control."](https://arxiv.org/pdf/2306.07290) arXiv preprint arXiv:2306.07290 (2023).
@@ -194,6 +214,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Offline RL
 <a name="Offline-RL"></a>
+
+- Jackson, Matthew Thomas, et al. ["Policy-guided diffusion."](https://arxiv.org/pdf/2404.06356) arXiv preprint arXiv:2404.06356 (2024).
 
 - Kim, Woo Kyung, Minjong Yoo, and Honguk Woo. ["Robust Policy Learning via Offline Skill Diffusion."](https://arxiv.org/pdf/2403.00225) arXiv preprint arXiv:2403.00225 (2024).
 
@@ -278,6 +300,10 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### World Models
 <a name="World-Models"></a>
 
+- Valevski, Dani, et al. ["Diffusion Models Are Real-Time Game Engines."](https://arxiv.org/pdf/2408.14837) arXiv preprint arXiv:2408.14837 (2024).
+
+- Yu, Youwei, Junhong Xu, and Lantao Liu. ["Adaptive Diffusion Terrain Generator for Autonomous Uneven Terrain Navigation."](https://openreview.net/forum?id=xYleTh2QhS) 8th Annual Conference on Robot Learning.
+
 - Ding, Zihan, et al. ["Diffusion World Model."](https://arxiv.org/html/2402.03570v1) arXiv preprint arXiv:2402.03570 (2024).
 
 - Rigter, Marc, Jun Yamada, and Ingmar Posner. ["World models via policy-guided trajectory diffusion."](https://arxiv.org/html/2312.08533v2) arXiv preprint arXiv:2312.08533 (2023).
@@ -288,6 +314,10 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ### Task and Motion Planning
 <a name="tamp"></a>
+
+- Mishra, Utkarsh Aashu, Yongxin Chen, and Danfei Xu. ["Generative Factor Chaining: Coordinated Manipulation with Diffusion-based Factor Graph."](https://openreview.net/forum?id=p6Wq6TjjHH) 8th Annual Conference on Robot Learning.
+
+- Huang, Huang, et al. ["DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning."](https://openreview.net/pdf?id=B7Lf6xEv7l) 8th Annual Conference on Robot Learning.
 
 - Xu, Yiqing, et al. [""Set It Up!": Functional Object Arrangement with Compositional Generative Models."](https://arxiv.org/pdf/2405.11928) arXiv preprint arXiv:2405.11928 (2024).
 
@@ -323,9 +353,17 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 
 ---
 
-### Tactile Sensing & Pose Estimation
+### Tactile Sensing & Pose Estimation & Grasping & Depth
 
 <a name="Grasping-&-Tactile-Sensing-&-Pose-Estimation"></a>
+
+- Cai, Eric, et al. ["Non-rigid Relative Placement through 3D Dense Diffusion."](https://openreview.net/pdf?id=rvKWXxIvj0) 8th Annual Conference on Robot Learning.
+
+- Song, Pinhao, Pengteng Li, and Renaud Detry. ["Implicit Grasp Diffusion: Bridging the Gap between Dense Prediction and Sampling-based Grasping."](https://openreview.net/pdf?id=VUhlMfEekm) 8th Annual Conference on Robot Learning.
+
+- Wei, Songlin, et al. ["D3RoMa: Disparity Diffusion-based Depth Sensing for Material-Agnostic Robotic Manipulation."](https://openreview.net/forum?id=7E3JAys1xO) 8th Annual Conference on Robot Learning.
+
+- Liao, Ziwei, Binbin Xu, and Steven L. Waslander. ["Toward General Object-level Mapping from Sparse Views with 3D Diffusion Priors."](https://openreview.net/pdf?id=rEteJcq61j) 8th Annual Conference on Robot Learning.
 
 - Yoneda, Takuma, et al. ["6-DoF Stability Field via Diffusion Models."](https://arxiv.org/pdf/2310.17649) arXiv preprint arXiv:2310.17649 (2023).
 
@@ -342,7 +380,7 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 Excited to see more diffusion papers in this area in the future!
 Using generative models to design robots is a very interesting idea, since it allows to generate new robot designs and test them in simulation before building them in the real world. 
 
-- Xu, Xiaomeng et al. ["Dynamics-Guided Diffusion Model for Robot Manipulator Design"](https://arxiv.org/pdf/2402.15038.pdf)
+- Xu, Xiaomeng, Huy Ha, and Shuran Song. ["Dynamics-Guided Diffusion Model for Sensor-less Robot Manipulator Design."](https://openreview.net/pdf?id=AzP6kSEffm) 8th Annual Conference on Robot Learning.
 
 - Wang, Tsun-Hsuan, et al. ["DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models."](https://openreview.net/forum?id=1zo4iioUEs) Thirty-seventh Conference on Neural Information Processing Systems. 2023.
 
