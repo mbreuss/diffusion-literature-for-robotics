@@ -304,6 +304,8 @@ The standard policy gradient objective requires the gradient of the log-likeliho
 ### World Models
 <a name="World-Models"></a>
 
+- Liu, Mengmeng, et al. ["DriveVA: Video Action Models are Zero-Shot Drivers."](https://link.springer.com/chapter/10.1007/978-3-032-37718-0_19) European Conference on Computer Vision (ECCV), 2026, pp. 315–335. [[Code](https://github.com/xiaomi-mlab/DriveVA)]
+
 - Valevski, Dani, et al. ["Diffusion Models Are Real-Time Game Engines."](https://arxiv.org/pdf/2408.14837) arXiv preprint arXiv:2408.14837 (2024).
 
 - Yu, Youwei, Junhong Xu, and Lantao Liu. ["Adaptive Diffusion Terrain Generator for Autonomous Uneven Terrain Navigation."](https://openreview.net/forum?id=xYleTh2QhS) 8th Annual Conference on Robot Learning.
